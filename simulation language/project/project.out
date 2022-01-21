@@ -1,0 +1,86 @@
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/18/2022
+Analyst: None                                                        Model revision date: 1/18/2022
+
+Replication ended at time      : 3964.2172 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+patient.VATime                                  --         --         --         --          0
+patient.NVATime                                 --         --         --         --          0
+patient.WaitTime                                --         --         --         --          0
+patient.TranTime                                --         --         --         --          0
+patient.OtherTime                               --         --         --         --          0
+patient.TotalTime                               --         --         --         --          0
+dentures_patient.VATime                     .20167     (Insuf)    .16692     .24344         24    
+dentures_patient.NVATime                    .00000     (Insuf)    .00000     .00000         24    
+dentures_patient.WaitTime                   .00000     (Insuf)    .00000     .00000         24    
+dentures_patient.TranTime                   .00000     (Insuf)    .00000     .00000         24    
+dentures_patient.OtherTime                  .00000     (Insuf)    .00000     .00000         24    
+dentures_patient.TotalTime                  .20167     (Insuf)    .16692     .24344         24    
+Implant_patient.VATime                      .20780     (Insuf)    .16740     .24784         19    
+Implant_patient.NVATime                     .00000     (Insuf)    .00000     .00000         19    
+Implant_patient.WaitTime                    .00000     (Insuf)    .00000     .00000         19    
+Implant_patient.TranTime                    .00000     (Insuf)    .00000     .00000         19    
+Implant_patient.OtherTime                   .00000     (Insuf)    .00000     .00000         19    
+Implant_patient.TotalTime                   .20780     (Insuf)    .16740     .24784         19    
+orthodontics_patient.VATime                 .20578     (Insuf)    .17072     .24464         18    
+orthodontics_patient.NVATime                .00000     (Insuf)    .00000     .00000         18    
+orthodontics_patient.WaitTime               .00000     (Insuf)    .00000     .00000         18    
+orthodontics_patient.TranTime               .00000     (Insuf)    .00000     .00000         18    
+orthodontics_patient.OtherTime              .00000     (Insuf)    .00000     .00000         18    
+orthodontics_patient.TotalTime              .20578     (Insuf)    .17072     .24464         18    
+restorative_patient.VATime                  .21414     (Insuf)    .16827     .24457         39    
+restorative_patient.NVATime                 .00000     (Insuf)    .00000     .00000         39    
+restorative_patient.WaitTime                .00000     (Insuf)    .00000     .00000         39    
+restorative_patient.TranTime                .00000     (Insuf)    .00000     .00000         39    
+restorative_patient.OtherTime               .00000     (Insuf)    .00000     .00000         39    
+restorative_patient.TotalTime               .21414     (Insuf)    .16827     .24457         39    
+Admission.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000        100    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+patient.WIP                                 .00526     (Insuf)    .00000     1.0000     .00000    
+dentures_patient.WIP                        .00000     (Insuf)    .00000     1.0000     .00000    
+Implant_patient.WIP                         .00000     (Insuf)    .00000     1.0000     .00000    
+orthodontics_patient.WIP                    .00000     (Insuf)    .00000     1.0000     .00000    
+restorative_patient.WIP                     .00000     (Insuf)    .00000     1.0000     .00000    
+Addmission Worker.NumberBusy                .00526     (Insuf)    .00000     1.0000     .00000    
+Addmission Worker.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Addmission Worker.Utilization               .00526     (Insuf)    .00000     1.0000     .00000    
+Admission.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+patient.NumberIn                            100.00    
+patient.NumberOut                           100.00    
+dentures_patient.NumberIn                   24.000    
+dentures_patient.NumberOut                  24.000    
+Implant_patient.NumberIn                    19.000    
+Implant_patient.NumberOut                   19.000    
+orthodontics_patient.NumberIn               18.000    
+orthodontics_patient.NumberOut              18.000    
+restorative_patient.NumberIn                39.000    
+restorative_patient.NumberOut               39.000    
+Addmission Worker.NumberSeized              100.00    
+Addmission Worker.ScheduledUtilization      .00526    
+System.NumberOut                            100.00    
+
+
+Simulation run time: 0.13 minutes.
+Simulation run complete.

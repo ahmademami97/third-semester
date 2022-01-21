@@ -1,0 +1,7 @@
+[RESOURCES]
+Addmission Worker
+[VARIABLES]
+Admission.NumberOut
+Create patients.NumberOut
+Admission.NumberIn
+Dispose 1.NumberOut
