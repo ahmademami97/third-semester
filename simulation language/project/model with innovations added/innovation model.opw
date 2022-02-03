@@ -92,7 +92,6 @@ Admission.NumberOut
 3DP crown.NumberOut
 base LP resin total cost
 Batch 7.NumberOut
-Adjustable Batch 2.NumberOut
 Ordering2.NumberOut
 Batch 1.NumberOut
 Dentures polishing.NumberIn
@@ -139,13 +138,13 @@ Dentures base LP resin usage
 Implant revenue
 Restoration Examination.NumberIn
 A2 resin total cost
-Adjustable Batch 2.TempSize
 Dispose 8.NumberOut
 Search and Remove 3.NumberRemoved
 sonication and immersion.NumberOut
 Separate 8.NumberOut Orig
 Process 56.NumberOut
 sonication and immersion.NumberIn
+Create 13.NumberOut
 resin reordering point
 implant fixture polishing.NumberOut
 implant fixture polishing.NumberIn
@@ -199,24 +198,8 @@ Orthodontics revenue
 teeth A2 resin order quantity
 Separate 1.NumberOut Dup
 grey resin inventory
-Decide 26.NumberOut False
-Decide 25.NumberOut False
-Decide 24.NumberOut False
-Decide 23.NumberOut False
-Decide 22.NumberOut False
-Decide 21.NumberOut False
-Decide 20.NumberOut False
-Decide 19.NumberOut False
 Decide 17.NumberOut False
 Decide 18.NumberOut False
-Decide 26.NumberOut True
-Decide 25.NumberOut True
-Decide 24.NumberOut True
-Decide 23.NumberOut True
-Decide 22.NumberOut True
-Decide 21.NumberOut True
-Decide 20.NumberOut True
-Decide 19.NumberOut True
 Decide 17.NumberOut True
 Decide 18.NumberOut True
 dentures UV curing.NumberOut
@@ -233,6 +216,7 @@ DLY aligners airdry.NumberIn
 crowns post cure.NumberOut
 titanium inventory
 fixed transportation cost
+total cost
 crowns post cure.NumberIn
 Dentures Examination.NumberIn
 normal crown polish.NumberOut

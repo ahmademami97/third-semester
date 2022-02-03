@@ -1,0 +1,17 @@
+Fit All
+
+Document:  C:\Users\calvin\Desktop\my working directory\third-semester-1400\simulation language\hw3_99207521\TEU_Feeder.txt
+Data File: C:\Users\calvin\Desktop\my working directory\third-semester-1400\simulation language\hw3_99207521\TEU_Feeder.txt
+
+
+Function       Sq Error
+-----------------------
+Beta           0.00215
+Triangular     0.00266
+Normal         0.00336
+Gamma          0.005
+Weibull        0.00539
+Erlang         0.00555
+Exponential    0.00666
+Uniform        0.0109
+Lognormal      0.0111

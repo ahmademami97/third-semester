@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=c:\Users\calvin\Desktop\my working directory\third-semester-1400\simulation language\project
+DefaultDir=c:\Users\calvin\Desktop\my working directory\third-semester-1400\simulation language\project\model with innovations added
 DBQ=C:\Users\calvin\Desktop\my working directory\third-semester-1400\simulation language\project\model with innovations added\innovation model.accdb

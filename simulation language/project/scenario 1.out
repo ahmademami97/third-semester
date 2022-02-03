@@ -1,0 +1,1899 @@
+SIMAN Run Controller.
+
+128.03333 Days>SIMAN Run Controller.
+
+1531.7556 Days>
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2022
+Analyst: None                                                        Model revision date: 2/ 3/2022
+
+Replication ended at time      : 4745.0 Days 
+Statistics were cleared at time: 1095.0 Days (Sunday, February 02, 2025, 00:00:00)
+Statistics accumulated for time: 3650.0 Days
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+tis_twostage_implant                        433.31     (Corr)     178.38     823.38      11884    
+tis_immediate_implant                       305.41     (Corr)     81.939     642.19       3040    
+tis_ortho_patients                          642.70     (Corr)     267.47     1083.2      13923    
+Laboratory makespan                         1.0496     .00663     .24444     22.377      89936    
+tis_restoration                             2.0810     .01103     .46773     4.6537      32847    
+tis_denture                                 71.293     .10650     56.725     86.959      16358    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+immediate implant 1.VATime                      --         --         --         --          0
+immediate implant 1.NVATime                     --         --         --         --          0
+immediate implant 1.WaitTime                    --         --         --         --          0
+immediate implant 1.TranTime                    --         --         --         --          0
+immediate implant 1.OtherTime                   --         --         --         --          0
+immediate implant 1.TotalTime                   --         --         --         --          0
+Implant type 2.VATime                       167.13     .93412     101.18     363.71      11884    
+Implant type 2.NVATime                      .00000     .00000     .00000     .00000      11884    
+Implant type 2.WaitTime                     402.90     (Corr)     164.43     672.04      11884    
+Implant type 2.TranTime                     .08889     (Corr)     .08889     .08889      11884    
+Implant type 2.OtherTime                    .00000     .00000     .00000     .00000      11884    
+Implant type 2.TotalTime                    433.31     (Corr)     178.38     823.38      11884    
+Implant type 1.VATime                       21.622     1.9090     .42095     179.20       3040    
+Implant type 1.NVATime                      .00000     .00000     .00000     .00000       3040    
+Implant type 1.WaitTime                     294.73     (Corr)     78.647     543.85       3040    
+Implant type 1.TranTime                     .12222     (Corr)     .12222     .12222       3040    
+Implant type 1.OtherTime                    .00000     .00000     .00000     .00000       3040    
+Implant type 1.TotalTime                    305.41     (Corr)     81.939     642.19       3040    
+patient.VATime                                  --         --         --         --          0
+patient.NVATime                                 --         --         --         --          0
+patient.WaitTime                                --         --         --         --          0
+patient.TranTime                                --         --         --         --          0
+patient.OtherTime                               --         --         --         --          0
+patient.TotalTime                               --         --         --         --          0
+dentures_patient.VATime                     70.425     .10623     56.441     84.461      16358    
+dentures_patient.NVATime                    .00000     .00000     .00000     .00000      16358    
+dentures_patient.WaitTime                   2.3525     .01880     .49769     10.099      16358    
+dentures_patient.TranTime                   .05556     (Corr)     .05556     .05556      16358    
+dentures_patient.OtherTime                  .00000     .00000     .00000     .00000      16358    
+dentures_patient.TotalTime                  71.293     .10650     56.725     86.959      16358    
+Implant_patient.VATime                          --         --         --         --          0
+Implant_patient.NVATime                         --         --         --         --          0
+Implant_patient.WaitTime                        --         --         --         --          0
+Implant_patient.TranTime                        --         --         --         --          0
+Implant_patient.OtherTime                       --         --         --         --          0
+Implant_patient.TotalTime                       --         --         --         --          0
+two stage implant 2.VATime                      --         --         --         --          0
+two stage implant 2.NVATime                     --         --         --         --          0
+two stage implant 2.WaitTime                    --         --         --         --          0
+two stage implant 2.TranTime                    --         --         --         --          0
+two stage implant 2.OtherTime                   --         --         --         --          0
+two stage implant 2.TotalTime                   --         --         --         --          0
+orthodontics_patient.VATime                 272.66     .99664     141.64     488.15      13923    
+orthodontics_patient.NVATime                .00000     .00000     .00000     .00000      13923    
+orthodontics_patient.WaitTime               370.73     (Corr)     76.247     665.60      13923    
+orthodontics_patient.TranTime               .05556     (Corr)     .05556     .05556      13923    
+orthodontics_patient.OtherTime              .00000     .00000     .00000     .00000      13923    
+orthodontics_patient.TotalTime              642.70     (Corr)     267.47     1083.2      13923    
+restorative_patient.VATime                  .30593      1.5917E-4 .26997     .34337      32847    
+restorative_patient.NVATime                 .00000     .00000     .00000     .00000      32847    
+restorative_patient.WaitTime                3.2416     .02226     .47078     7.9158      32847    
+restorative_patient.TranTime                .05556     (Corr)     .05556     .05556      32847    
+restorative_patient.OtherTime               .00000     .00000     .00000     .00000      32847    
+restorative_patient.TotalTime               2.0810     .01103     .46773     4.6537      32847    
+Admission.Queue.WaitingTime                 .00000     .00000     .00000     .00000      82129    
+Batch 2.Queue.WaitingTime                   2.2257     .10055     .00000     14.933       3045    
+normal implant brush.Queue.WaitingTime          --         --         --         --          0
+Batch 7.Queue.WaitingTime                   .33345     .00593     .00000     2.9333      16356    
+sature.Queue.WaitingTime                    .52321     .01630      1.1707E-5 3.0798      11888    
+implant fixture polishing.Queue.WaitingTim  .01042     (Corr)     .00000     .06667       3045    
+normal crown polish.Queue.WaitingTime           --         --         --         --          0
+sonication and immersion.Queue.WaitingTime  .00658     .00100     .00000     .08111        609    
+Dentures polishing.Queue.WaitingTime         3.0280E-4  4.8243E-5 .00000     .04000      16360    
+Dentures Examination.Queue.WaitingTime      .04998     .00243     .00000     .75696      16358    
+join patient crown and fixture.Queue.Waiti  1.0457     .03863      4.5367E-5 3.0379       3040    
+Hold for call.Queue.WaitingTime             19.062     .24780     .30006     183.25      89936    
+normal sonication and immersion.Queue.Wait  .00189      2.3960E-4 .00000     .09819       4756    
+Match 6.Queue1.WaitingTime                  .05926     (Corr)     .04447     .07771      89965    
+Match 6.Queue2.WaitingTime                  .00000     .00000     .00000     .00000      89965    
+dentures UV curing.Queue.WaitingTime        .01250      5.5429E-5 .00000     .03260      16360    
+crowns post cure.Queue.WaitingTime          .00390      4.1842E-4 .00000     .05274       2053    
+aligners brush.Queue.WaitingTime            .00104      5.9694E-5 .00000     .02531      13923    
+Implanr examination 1.Queue.WaitingTime     140.45     (Corr)     37.431     238.05      15842    
+normal crowns 3DP.Queue.WaitingTime             --         --         --         --          0
+Batch 1.Queue.WaitingTime                   4.7596     .15222     .00000     22.133       3050    
+Batch 3.Queue.WaitingTime                       --         --         --         --          0
+Photographing.Queue.WaitingTime             .00000     .00000     .00000     .00000      13921    
+immediate fixtures 3DP.Queue.WaitingTime    .03081     .00440     .00000     .24122        609    
+Match 3.Queue1.WaitingTime                  .01489      9.9335E-4 .00000     .11096      16360    
+Match 3.Queue2.WaitingTime                  .01844      6.3150E-4 .00000     .05519      16360    
+immediate implant brush.Queue.WaitingTime    2.0213E-4 (Insuf)    .00000     .01583        305    
+aligners ultra sonic.Queue.WaitingTime      .00359      1.8799E-4 .00000     .14111      13923    
+join patient and crown.Queue.WaitingTime    .52820     .02153      3.6057E-5 3.1757      11885    
+Hold 6.Queue.WaitingTime                    .13268     .00138      1.8135E-6 .26665      11884    
+Hold 2.Queue.WaitingTime                    .24318     .00232      5.2824E-7 .53333      89936    
+Hold 1.Queue.WaitingTime                    .13523      7.9834E-4  7.2442E-6 .26666      78064    
+aligners thermoforming.Queue.WaitingTime    .00434      1.2268E-4 .00000     .06667      13922    
+3DP dentures base.Queue.WaitingTime         .01571     .00112     .00000     .18624       4090    
+3DP aligners.Queue.WaitingTime              .03074      9.1506E-4 .00000     .31584      13921    
+Batch 8.Queue.WaitingTime                   .83975     .00899     .00000     2.9333      32848    
+3DP crown.Queue.WaitingTime                 .02935     .00227     .00000     .25015       2053    
+dentures post cure.Queue.WaitingTime        .01290     (Corr)     .00000     .08550      16360    
+normal implant fixture polishing.Queue.Wai  .00734      1.4430E-4 .00000     .06625      23780    
+examination by orthodentics.Queue.WaitingT  .10390     .00176      3.2062E-7 .77848      63184    
+immediate crown polish.Queue.WaitingTime    .01751     (Corr)     .00000     .05556       3050    
+join patient and fixture.Queue.WaitingTime  .63556     .02239      2.5923E-6 3.2366      11895    
+aligners post cure.Queue.WaitingTime        .00376      1.2248E-4 .00000     .06667      13923    
+immediate crowns 3DP.Queue.WaitingTime      .04006     (Insuf)    .00000     .25368        305    
+restoration.Queue.WaitingTime               .43980     .00195     .00000     1.3330      32848    
+normal sonication and acid etched.Queue.Wa  .00608      5.0749E-4 .00000     .10000       4756    
+Batch 6.Queue.WaitingTime                   .33345     .00593     .00000     2.9333      16356    
+scanning process.Queue.WaitingTime          .00228      5.4293E-5 .00000     .06398      78063    
+crowns brush.Queue.WaitingTime               4.4798E-4  1.1966E-4 .00000     .02234       2053    
+implant post cure.Queue.WaitingTime         .00473     (Insuf)    .00000     .08217        305    
+Orthodentics Examination.Queue.WaitingTime  409.78     (Corr)     146.99     686.37      13920    
+Implant examinatio 3.Queue.WaitingTime      140.20     (Corr)     37.642     237.63      11894    
+Implant examinatio 2.Queue.WaitingTime      140.27     (Corr)     38.889     237.16       3044    
+scanning2.Queue.WaitingTime                 .00225      6.4443E-5 .00000     .01578      11888    
+Match 1.Queue1.WaitingTime                  2.5500     .11354     .00000     18.210       3050    
+Match 1.Queue2.WaitingTime                  .00444      5.9747E-4 .00000     .07399       3050    
+Denture installation.Queue.WaitingTime      .09345     .00170     .00000     .60788      16358    
+crowns polishing.Queue.WaitingTime          .02568      1.0267E-4 .00000     .06655      32848    
+Restoration Examination.Queue.WaitingTime   .00111      5.3867E-5 .00000     .03447      32847    
+norma implant post cure.Queue.WaitingTime       --         --         --         --          0
+3DP dentures teeth.Queue.WaitingTime        .04562     .00166     .00000     .24649       4090    
+sonication and acid etched.Queue.WaitingTi  .02383     .00208     .00000     .08889        609    
+normal fixtures 3DP.Queue.WaitingTime       .01522     .00104     .00000     .27688       4756    
+Batch 4.Queue.WaitingTime                   .30857     .00434     .00000     3.2000      23780    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+total titanium Value                        41893.     (Corr)     15118.     68762.     68762.    
+Dentures revenue Value                       2.8105E+6 (Corr)      1.0278E+6  4.6261E+6  4.6261E+6
+Restoration revenue Value                    1.0507E+6 (Corr)      3.9272E+5  1.7052E+6  1.7052E+6
+Dentures base LP resin usage Value           2.5434E+6 (Corr)      9.2240E+5  4.1940E+6  4.1940E+6
+Implant revenue Value                        2.1293E+6 (Corr)      7.5507E+5  3.5065E+6  3.5065E+6
+TotalProfit Value                            2.0142E+6 (Corr)      4.0431E+5  3.6213E+6  3.6208E+6
+total transportation cost Value              1.4240E+5 (Corr)     52568.      2.3244E+5  2.3244E+5
+total resin Value                            8.2470E+5 (Corr)      3.0803E+5  1.3391E+6  1.3391E+6
+Orthodontics revenue Value                   7.3679E+6 (Corr)      2.4502E+6  1.2281E+7  1.2281E+7
+total grey resin Value                       7.8886E+5 (Corr)      3.0135E+5  1.2758E+6  1.2758E+6
+fixed transportation cost Value             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+total cost Value                             1.1202E+7 (Corr)      4.1678E+6  1.8266E+7  1.8266E+7
+Dentures teeth A2 resin usage Value          1.7804E+6 (Corr)      6.4568E+5  2.9358E+6  2.9358E+6
+Entity 1.WIP                                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+immediate implant 1.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+Implant type 2.WIP                          1920.9     19.018     1699.0     2133.0     1918.0    
+Implant type 1.WIP                          18.714     .45250     .00000     69.000     53.000    
+patient.WIP                                 .31257      2.5701E-4 .00000     1.0000     .00000    
+dentures_patient.WIP                        332.84     (Corr)     261.00     411.00     337.00    
+Implant_patient.WIP                         1365.7     (Corr)     444.00     2270.0     2250.0    
+two stage implant 2.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+orthodontics_patient.WIP                    4958.3     (Corr)     3754.0     6085.0     6057.0    
+restorative_patient.WIP                     41.302     .24994     8.0000     83.000     44.000    
+post curing machine.NumberBusy              .23056     (Corr)     .00000     1.0000     1.0000    
+post curing machine.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+post curing machine.Utilization             .23056     (Corr)     .00000     1.0000     1.0000    
+Restoration doctor 2.NumberBusy             .17362     .00356     .00000     1.0000     1.0000    
+Restoration doctor 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 2.Utilization            .17362     .00356     .00000     1.0000     1.0000    
+Restoration doctor 1.NumberBusy             .62635     .00419     .00000     1.0000     1.0000    
+Restoration doctor 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 1.Utilization            .62635     .00419     .00000     1.0000     1.0000    
+3DP.NumberBusy                              .68970     .00375     .00000     2.0000     .00000    
+3DP.NumberScheduled                         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+3DP.Utilization                             .34485     .00188     .00000     1.0000     .00000    
+Scanner.NumberBusy                          .31966     .00118     .00000     1.0000     .00000    
+Scanner.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner.Utilization                         .31966     .00118     .00000     1.0000     .00000    
+Denture doctor.NumberBusy                   .47300     (Corr)     .00000     1.0000     .00000    
+Denture doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Denture doctor.Utilization                  .47300     (Corr)     .00000     1.0000     .00000    
+orthodontist doctor.NumberBusy              .92721      9.4972E-5 .00000     1.0000     1.0000    
+orthodontist doctor.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+orthodontist doctor.Utilization             .92721      9.4972E-5 .00000     1.0000     1.0000    
+polisher.NumberBusy                         .07222     (Corr)     .00000     1.0000     .00000    
+polisher.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+polisher.Utilization                        .07222     (Corr)     .00000     1.0000     .00000    
+ultra sonic cleaner.NumberBusy              .17304      6.8737E-4 .00000     1.0000     .00000    
+ultra sonic cleaner.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ultra sonic cleaner.Utilization             .17304      6.8737E-4 .00000     1.0000     .00000    
+photographer.NumberBusy                     .06364      4.1980E-4 .00000     1.0000     .00000    
+photographer.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+photographer.Utilization                    .06364      4.1980E-4 .00000     1.0000     .00000    
+Implant doctor.NumberBusy                   .92930      1.1753E-4 .00000     1.0000     1.0000    
+Implant doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Implant doctor.Utilization                  .92930      1.1753E-4 .00000     1.0000     1.0000    
+UV machine.NumberBusy                       .03735      4.9665E-4 .00000     1.0000     .00000    
+UV machine.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+UV machine.Utilization                      .03735      4.9665E-4 .00000     1.0000     .00000    
+Addmission Worker.NumberBusy                .31257      2.5701E-4 .00000     1.0000     .00000    
+Addmission Worker.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Addmission Worker.Utilization               .31257      2.5701E-4 .00000     1.0000     .00000    
+brush.NumberBusy                            .07355     (Corr)     .00000     1.0000     .00000    
+brush.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+brush.Utilization                           .07355     (Corr)     .00000     1.0000     .00000    
+Thermoforming machine.NumberBusy            .19071     (Corr)     .00000     1.0000     1.0000    
+Thermoforming machine.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Thermoforming machine.Utilization           .19071     (Corr)     .00000     1.0000     1.0000    
+Admission.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Batch 2.Queue.NumberInQueue                 1.8564     .07351     .00000     5.0000     1.0000    
+normal implant brush.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Batch 7.Queue.NumberInQueue                 1.4943     .01863     .00000     4.0000     2.0000    
+sature.Queue.NumberInQueue                  1.7043     .06280     .00000     16.000     2.0000    
+implant fixture polishing.Queue.NumberInQu  .00869      6.8012E-4 .00000     5.0000     .00000    
+normal crown polish.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+sonication and immersion.Queue.NumberInQue  .00110     (Insuf)    .00000     1.0000     .00000    
+Dentures polishing.Queue.NumberInQueue      .00136      2.2577E-4 .00000     3.0000     .00000    
+Dentures Examination.Queue.NumberInQueue    .22399     (Corr)     .00000     7.0000     .00000    
+join patient crown and fixture.Queue.Numbe  .87199     .03525     .00000     10.000     10.000    
+Hold for call.Queue.NumberInQueue           469.84     4.6078     404.00     543.00     472.00    
+normal sonication and immersion.Queue.Numb  .00246      3.0525E-4 .00000     2.0000     .00000    
+Match 6.Queue1.NumberInQueue                1.4603     (Corr)     .00000     50.000     .00000    
+Match 6.Queue2.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+dentures UV curing.Queue.NumberInQueue      .05603      7.9210E-4 .00000     3.0000     .00000    
+crowns post cure.Queue.NumberInQueue        .00219      2.1610E-4 .00000     1.0000     .00000    
+aligners brush.Queue.NumberInQueue          .00397      2.4467E-4 .00000     1.0000     .00000    
+Implanr examination 1.Queue.NumberInQueue   643.18     (Corr)     152.00     1104.0     1067.0    
+normal crowns 3DP.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Batch 1.Queue.NumberInQueue                 3.9692     .12555     .00000     10.000     1.0000    
+Batch 3.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Photographing.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+immediate fixtures 3DP.Queue.NumberInQueue  .00514      6.9082E-4 .00000     1.0000     .00000    
+Match 3.Queue1.NumberInQueue                .06675     .00383     .00000     4.0000     .00000    
+Match 3.Queue2.NumberInQueue                .08265     (Corr)     .00000     4.0000     .00000    
+immediate implant brush.Queue.NumberInQueu   1.6890E-5 (Insuf)    .00000     1.0000     .00000    
+aligners ultra sonic.Queue.NumberInQueue    .01369      7.7257E-4 .00000     3.0000     .00000    
+join patient and crown.Queue.NumberInQueue  1.7200     .09404     .00000     16.000     1.0000    
+Hold 6.Queue.NumberInQueue                  .43200     .00576     .00000     6.0000     .00000    
+Hold 2.Queue.NumberInQueue                  5.9937     .06618     .00000     50.000     24.000    
+Hold 1.Queue.NumberInQueue                  2.8923     .01873     .00000     18.000     1.0000    
+aligners thermoforming.Queue.NumberInQueue  .01657      4.7990E-4 .00000     2.0000     .00000    
+3DP dentures base.Queue.NumberInQueue       .01759     .00126     .00000     2.0000     .00000    
+3DP aligners.Queue.NumberInQueue            .11723     .00272     .00000     4.0000     .00000    
+Batch 8.Queue.NumberInQueue                 7.5572     (Corr)     .00000     16.000     4.0000    
+3DP crown.Queue.NumberInQueue               .01651     .00117     .00000     1.0000     .00000    
+dentures post cure.Queue.NumberInQueue      .05781      9.0423E-4 .00000     4.0000     .00000    
+normal implant fixture polishing.Queue.Num  .04781     .00102     .00000     9.0000     .00000    
+examination by orthodentics.Queue.NumberIn  1.7986     .03284     .00000     19.000     3.0000    
+immediate crown polish.Queue.NumberInQueue  .01463      8.0576E-4 .00000     10.000     .00000    
+join patient and fixture.Queue.NumberInQue  2.0716     .06992     .00000     17.000     4.0000    
+aligners post cure.Queue.NumberInQueue      .01436      4.4524E-4 .00000     2.0000     .00000    
+immediate crowns 3DP.Queue.NumberInQueue    .00335      5.2978E-4 .00000     1.0000     .00000    
+restoration.Queue.NumberInQueue             3.9579     .04237     .00000     23.000     .00000    
+normal sonication and acid etched.Queue.Nu  .00792      6.2691E-4 .00000     2.0000     .00000    
+Batch 6.Queue.NumberInQueue                 1.4943     .01863     .00000     4.0000     2.0000    
+scanning process.Queue.NumberInQueue        .04879     .00140     .00000     5.0000     .00000    
+crowns brush.Queue.NumberInQueue             2.5197E-4 (Insuf)    .00000     1.0000     .00000    
+implant post cure.Queue.NumberInQueue        3.9499E-4 (Insuf)    .00000     1.0000     .00000    
+Orthodentics Examination.Queue.NumberInQue  1826.4     (Corr)     642.00     2928.0     2928.0    
+Implant examinatio 3.Queue.NumberInQueue    483.45     (Corr)     108.00     852.00     847.00    
+Implant examinatio 2.Queue.NumberInQueue    124.05     (Corr)     27.000     234.00     224.00    
+scanning2.Queue.NumberInQueue               .00732      2.5178E-4 .00000     2.0000     .00000    
+Match 1.Queue1.NumberInQueue                2.1291     .10014     .00000     10.000     .00000    
+Match 1.Queue2.NumberInQueue                .00371      5.9951E-4 .00000     5.0000     .00000    
+Denture installation.Queue.NumberInQueue    .41881     .00929     .00000     12.000     .00000    
+crowns polishing.Queue.NumberInQueue        .23111     .00230     .00000     16.000     .00000    
+Restoration Examination.Queue.NumberInQueu  .00999      5.3345E-4 .00000     1.0000     .00000    
+norma implant post cure.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+3DP dentures teeth.Queue.NumberInQueue      .05111     .00174     .00000     2.0000     .00000    
+sonication and acid etched.Queue.NumberInQ  .00398      3.4866E-4 .00000     1.0000     .00000    
+normal fixtures 3DP.Queue.NumberInQueue     .01983     .00139     .00000     2.0000     .00000    
+Batch 4.Queue.NumberInQueue                 2.0101     .02749     .00000     5.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+immediate_implant_count                        3040  Infinite
+denture_count                                 16358  Infinite
+restoration_count                             32847  Infinite
+two_stage_count                               11884  Infinite
+ortho_count                                   13923  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+normalized implant doctor                   1.0135    
+normalized Laboratory makespan              .61364    
+normalized orthodentics doctor              1.0450    
+normalized denture doctor                   .00000    
+normalized restoration doctor 1             1.5356    
+normalized restoration doctor 2             6.4641    
+doctors utilization                         .80000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+immediate implant 1.NumberIn                .00000    
+immediate implant 1.NumberOut               .00000    
+Implant type 2.NumberIn                     64217.    
+Implant type 2.NumberOut                    64176.    
+Implant type 1.NumberIn                     16146.    
+Implant type 1.NumberOut                    16114.    
+patient.NumberIn                            82129.    
+patient.NumberOut                           82130.    
+dentures_patient.NumberIn                   89971.    
+dentures_patient.NumberOut                  89970.    
+Implant_patient.NumberIn                    16722.    
+Implant_patient.NumberOut                   14938.    
+two stage implant 2.NumberIn                .00000    
+two stage implant 2.NumberOut               .00000    
+orthodontics_patient.NumberIn               44048.    
+orthodontics_patient.NumberOut              41769.    
+restorative_patient.NumberIn                 1.0059E+5
+restorative_patient.NumberOut                1.0059E+5
+post curing machine.NumberSeized            32641.    
+post curing machine.ScheduledUtilization    .23056    
+Restoration doctor 2.NumberSeized           18985.    
+Restoration doctor 2.ScheduledUtilization   .17362    
+Restoration doctor 1.NumberSeized           46710.    
+Restoration doctor 1.ScheduledUtilization   .62635    
+3DP.NumberSeized                            29824.    
+3DP.ScheduledUtilization                    .34485    
+Scanner.NumberSeized                        89951.    
+Scanner.ScheduledUtilization                .31966    
+Denture doctor.NumberSeized                 32716.    
+Denture doctor.ScheduledUtilization         .47300    
+orthodontist doctor.NumberSeized            77104.    
+orthodontist doctor.ScheduledUtilization    .92721    
+polisher.NumberSeized                       79083.    
+polisher.ScheduledUtilization               .07222    
+ultra sonic cleaner.NumberSeized            24653.    
+ultra sonic cleaner.ScheduledUtilization    .17304    
+photographer.NumberSeized                   13921.    
+photographer.ScheduledUtilization           .06364    
+Implant doctor.NumberSeized                 69488.    
+Implant doctor.ScheduledUtilization         .92930    
+UV machine.NumberSeized                     16360.    
+UV machine.ScheduledUtilization             .03735    
+Addmission Worker.NumberSeized              82129.    
+Addmission Worker.ScheduledUtilization      .31257    
+brush.NumberSeized                          16281.    
+brush.ScheduledUtilization                  .07355    
+Thermoforming machine.NumberSeized          13922.    
+Thermoforming machine.ScheduledUtilization  .19071    
+System.NumberOut                            78052.    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2022
+Analyst: None                                                        Model revision date: 2/ 3/2022
+
+Replication ended at time      : 4745.0 Days 
+Statistics were cleared at time: 1095.0 Days (Sunday, February 02, 2025, 00:00:00)
+Statistics accumulated for time: 3650.0 Days
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+tis_twostage_implant                        417.13     (Corr)     178.11     770.35      11899    
+tis_immediate_implant                       282.63     (Corr)     81.079     597.76       3006    
+tis_ortho_patients                          622.38     (Corr)     250.74     1068.0      13889    
+Laboratory makespan                         1.0492     .00853     .24444     24.511      90206    
+tis_restoration                             2.0829     .01238     .46798     4.7776      32880    
+tis_denture                                 71.323     .13399     56.772     87.266      16590    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+immediate implant 1.VATime                      --         --         --         --          0
+immediate implant 1.NVATime                     --         --         --         --          0
+immediate implant 1.WaitTime                    --         --         --         --          0
+immediate implant 1.TranTime                    --         --         --         --          0
+immediate implant 1.OtherTime                   --         --         --         --          0
+immediate implant 1.TotalTime                   --         --         --         --          0
+Implant type 2.VATime                       167.17     .76440     101.05     368.52      11899    
+Implant type 2.NVATime                      .00000     .00000     .00000     .00000      11899    
+Implant type 2.WaitTime                     386.85     (Corr)     151.93     621.51      11899    
+Implant type 2.TranTime                     .08889     (Corr)     .08889     .08889      11899    
+Implant type 2.OtherTime                    .00000     .00000     .00000     .00000      11899    
+Implant type 2.TotalTime                    417.13     (Corr)     178.11     770.35      11899    
+Implant type 1.VATime                       17.922     1.7028     .41989     179.81       3006    
+Implant type 1.NVATime                      .00000     .00000     .00000     .00000       3006    
+Implant type 1.WaitTime                     275.77     (Corr)     76.034     496.31       3006    
+Implant type 1.TranTime                     .12222     (Corr)     .12222     .12222       3006    
+Implant type 1.OtherTime                    .00000     .00000     .00000     .00000       3006    
+Implant type 1.TotalTime                    282.63     (Corr)     81.079     597.76       3006    
+patient.VATime                                  --         --         --         --          0
+patient.NVATime                                 --         --         --         --          0
+patient.WaitTime                                --         --         --         --          0
+patient.TranTime                                --         --         --         --          0
+patient.OtherTime                               --         --         --         --          0
+patient.TotalTime                               --         --         --         --          0
+dentures_patient.VATime                     70.456     .13373     56.445     84.458      16590    
+dentures_patient.NVATime                    .00000     .00000     .00000     .00000      16590    
+dentures_patient.WaitTime                   2.3467     .02139     .48441     9.6289      16590    
+dentures_patient.TranTime                   .05556     (Corr)     .05556     .05556      16590    
+dentures_patient.OtherTime                  .00000     .00000     .00000     .00000      16590    
+dentures_patient.TotalTime                  71.323     .13399     56.772     87.266      16590    
+Implant_patient.VATime                          --         --         --         --          0
+Implant_patient.NVATime                         --         --         --         --          0
+Implant_patient.WaitTime                        --         --         --         --          0
+Implant_patient.TranTime                        --         --         --         --          0
+Implant_patient.OtherTime                       --         --         --         --          0
+Implant_patient.TotalTime                       --         --         --         --          0
+two stage implant 2.VATime                      --         --         --         --          0
+two stage implant 2.NVATime                     --         --         --         --          0
+two stage implant 2.WaitTime                    --         --         --         --          0
+two stage implant 2.TranTime                    --         --         --         --          0
+two stage implant 2.OtherTime                   --         --         --         --          0
+two stage implant 2.TotalTime                   --         --         --         --          0
+orthodontics_patient.VATime                 272.91     1.1953     140.62     485.80      13889    
+orthodontics_patient.NVATime                .00000     .00000     .00000     .00000      13889    
+orthodontics_patient.WaitTime               350.16     (Corr)     78.380     634.79      13889    
+orthodontics_patient.TranTime               .05556     (Corr)     .05556     .05556      13889    
+orthodontics_patient.OtherTime              .00000     .00000     .00000     .00000      13889    
+orthodontics_patient.TotalTime              622.38     (Corr)     250.74     1068.0      13889    
+restorative_patient.VATime                  .30564     (Corr)     .26666     .34249      32880    
+restorative_patient.NVATime                 .00000     .00000     .00000     .00000      32880    
+restorative_patient.WaitTime                3.2463     .02475     .46387     8.4933      32880    
+restorative_patient.TranTime                .05556     (Corr)     .05556     .05556      32880    
+restorative_patient.OtherTime               .00000     .00000     .00000     .00000      32880    
+restorative_patient.TotalTime               2.0829     .01238     .46798     4.7776      32880    
+Admission.Queue.WaitingTime                 .00000     .00000     .00000     .00000      82128    
+Batch 2.Queue.WaitingTime                   2.2320     .12281     .00000     16.266       3000    
+normal implant brush.Queue.WaitingTime          --         --         --         --          0
+Batch 7.Queue.WaitingTime                   .33197     .00729     .00000     2.6666      16592    
+sature.Queue.WaitingTime                    .53576     .01831      8.2119E-6 3.4386      11893    
+implant fixture polishing.Queue.WaitingTim  .01027      8.3425E-4 .00000     .06646       3000    
+normal crown polish.Queue.WaitingTime           --         --         --         --          0
+sonication and immersion.Queue.WaitingTime  .00718     .00111     .00000     .06214        600    
+Dentures polishing.Queue.WaitingTime         3.1700E-4  5.4248E-5 .00000     .04222      16592    
+Dentures Examination.Queue.WaitingTime      .05076     (Corr)     .00000     .94129      16552    
+join patient crown and fixture.Queue.Waiti  1.0667     .03830      1.9974E-4 3.2370       3006    
+Hold for call.Queue.WaitingTime             19.061     .33127     .30008     181.97      90206    
+normal sonication and immersion.Queue.Wait  .00188      2.2629E-4 .00000     .10155       4764    
+Match 6.Queue1.WaitingTime                  .05925      4.3231E-5 .04448     .07774      90223    
+Match 6.Queue2.WaitingTime                  .00000     .00000     .00000     .00000      90223    
+dentures UV curing.Queue.WaitingTime        .01250      4.8936E-5 .00000     .03280      16592    
+crowns post cure.Queue.WaitingTime          .00421      5.4161E-4 .00000     .07309       2056    
+aligners brush.Queue.WaitingTime            .00110      6.8239E-5 .00000     .02492      13916    
+Implanr examination 1.Queue.WaitingTime     130.19     (Corr)     39.607     218.83      15592    
+normal crowns 3DP.Queue.WaitingTime             --         --         --         --          0
+Batch 1.Queue.WaitingTime                   4.8293     .23004     .00000     24.000       3000    
+Batch 3.Queue.WaitingTime                       --         --         --         --          0
+Photographing.Queue.WaitingTime             .00000     .00000     .00000     .00000      13915    
+immediate fixtures 3DP.Queue.WaitingTime    .02864     .00452     .00000     .27149        600    
+Match 3.Queue1.WaitingTime                  .01526      9.2772E-4 .00000     .11043      16592    
+Match 3.Queue2.WaitingTime                  .01803      5.3950E-4 .00000     .05472      16592    
+immediate implant brush.Queue.WaitingTime    3.0730E-4 (Insuf)    .00000     .01952        300    
+aligners ultra sonic.Queue.WaitingTime      .00370      2.2130E-4 .00000     .13833      13916    
+join patient and crown.Queue.WaitingTime    .54277     .02314      7.1226E-6 3.3922      11899    
+Hold 6.Queue.WaitingTime                    .13377     .00145      1.1028E-5 .26660      11901    
+Hold 2.Queue.WaitingTime                    .24431     .00245      1.1876E-5 .53329      90206    
+Hold 1.Queue.WaitingTime                    .13547      8.7591E-4  3.2947E-6 .26666      78302    
+aligners thermoforming.Queue.WaitingTime    .00435      1.2956E-4 .00000     .05000      13916    
+3DP dentures base.Queue.WaitingTime         .01465      8.6440E-4 .00000     .20577       4148    
+3DP aligners.Queue.WaitingTime              .03098      8.0118E-4 .00000     .34390      13915    
+Batch 8.Queue.WaitingTime                   .83646     .01061     .00000     3.4666      32880    
+3DP crown.Queue.WaitingTime                 .03004     .00305     .00000     .23852       2055    
+dentures post cure.Queue.WaitingTime        .01299      1.2426E-4 .00000     .07457      16592    
+normal implant fixture polishing.Queue.Wai  .00760      1.4543E-4 .00000     .06667      23820    
+examination by orthodentics.Queue.WaitingT  .10421     .00222      3.2612E-6 .63674      63177    
+immediate crown polish.Queue.WaitingTime    .01724      6.4635E-4 .00000     .05556       3000    
+join patient and fixture.Queue.WaitingTime  .65568     .02362      1.4669E-5 3.4187      11917    
+aligners post cure.Queue.WaitingTime        .00376      1.0908E-4 .00000     .06801      13916    
+immediate crowns 3DP.Queue.WaitingTime      .03988     (Insuf)    .00000     .28504        300    
+restoration.Queue.WaitingTime               .43891     .00186     .00000     1.3172      32880    
+normal sonication and acid etched.Queue.Wa  .00649      6.4470E-4 .00000     .10000       4764    
+Batch 6.Queue.WaitingTime                   .33197     .00729     .00000     2.6666      16592    
+scanning process.Queue.WaitingTime          .00231      6.0290E-5 .00000     .06423      78299    
+crowns brush.Queue.WaitingTime               3.5237E-4  8.8130E-5 .00000     .01992       2056    
+implant post cure.Queue.WaitingTime         .00411     (Insuf)    .00000     .08110        300    
+Orthodentics Examination.Queue.WaitingTime  387.96     (Corr)     127.72     651.85      13915    
+Implant examinatio 3.Queue.WaitingTime      130.66     (Corr)     39.638     219.17      11913    
+Implant examinatio 2.Queue.WaitingTime      129.90     (Corr)     39.682     219.10       3000    
+scanning2.Queue.WaitingTime                 .00231      9.8810E-5 .00000     .01626      11893    
+Match 1.Queue1.WaitingTime                  2.6154     .14396     .00000     13.839       3000    
+Match 1.Queue2.WaitingTime                  .00422      6.3405E-4 .00000     .08667       3000    
+Denture installation.Queue.WaitingTime      .09379     .00188     .00000     .62476      16590    
+crowns polishing.Queue.WaitingTime          .02552      9.0079E-5 .00000     .06658      32896    
+Restoration Examination.Queue.WaitingTime   .00115      5.5038E-5 .00000     .03649      32877    
+norma implant post cure.Queue.WaitingTime       --         --         --         --          0
+3DP dentures teeth.Queue.WaitingTime        .04522     .00146     .00000     .26790       4148    
+sonication and acid etched.Queue.WaitingTi  .02533     (Corr)     .00000     .10000        600    
+normal fixtures 3DP.Queue.WaitingTime       .01609      9.1920E-4 .00000     .24746       4764    
+Batch 4.Queue.WaitingTime                   .30897     .00438     .00000     3.2000      23820    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+total titanium Value                        41755.     (Corr)     14946.     68580.     68580.    
+Dentures revenue Value                       2.8546E+6 (Corr)      1.0325E+6  4.6807E+6  4.6807E+6
+Restoration revenue Value                    1.0526E+6 (Corr)      3.9702E+5  1.7121E+6  1.7121E+6
+Dentures base LP resin usage Value           2.5828E+6 (Corr)      9.2440E+5  4.2428E+6  4.2428E+6
+Implant revenue Value                        2.1269E+6 (Corr)      7.5078E+5  3.4990E+6  3.4990E+6
+TotalProfit Value                            1.9923E+6 (Corr)      3.9394E+5  3.5751E+6  3.5750E+6
+total transportation cost Value              1.4273E+5 (Corr)     52610.      2.3302E+5  2.3302E+5
+total resin Value                            8.2614E+5 (Corr)      3.1161E+5  1.3430E+6  1.3430E+6
+Orthodontics revenue Value                   7.3654E+6 (Corr)      2.4521E+6  1.2269E+7  1.2269E+7
+total grey resin Value                       7.8853E+5 (Corr)      3.0086E+5  1.2749E+6  1.2749E+6
+fixed transportation cost Value             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+total cost Value                             1.1264E+7 (Corr)      4.1858E+6  1.8352E+7  1.8352E+7
+Dentures teeth A2 resin usage Value          1.8079E+6 (Corr)      6.4708E+5  2.9700E+6  2.9700E+6
+Entity 1.WIP                                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+immediate implant 1.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+Implant type 2.WIP                          1926.9     14.377     1737.0     2144.0     1973.0    
+Implant type 1.WIP                          18.732     .52963     .00000     72.000     20.000    
+patient.WIP                                 .31249      2.2646E-4 .00000     1.0000     .00000    
+dentures_patient.WIP                        337.46     3.7957     287.00     409.00     328.00    
+Implant_patient.WIP                         1251.9     (Corr)     448.00     1953.0     1949.0    
+two stage implant 2.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+orthodontics_patient.WIP                    4860.9     (Corr)     3605.0     6124.0     6090.0    
+restorative_patient.WIP                     41.370     .30835     12.000     81.000     32.000    
+post curing machine.NumberBusy              .23154     .00111     .00000     1.0000     .00000    
+post curing machine.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+post curing machine.Utilization             .23154     .00111     .00000     1.0000     .00000    
+Restoration doctor 2.NumberBusy             .17354     .00349     .00000     1.0000     .00000    
+Restoration doctor 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 2.Utilization            .17354     .00349     .00000     1.0000     .00000    
+Restoration doctor 1.NumberBusy             .62701     .00380     .00000     1.0000     .00000    
+Restoration doctor 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 1.Utilization            .62701     .00380     .00000     1.0000     .00000    
+3DP.NumberBusy                              .69255     .00374     .00000     2.0000     .00000    
+3DP.NumberScheduled                         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+3DP.Utilization                             .34627     .00187     .00000     1.0000     .00000    
+Scanner.NumberBusy                          .32054     .00164     .00000     1.0000     .00000    
+Scanner.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner.Utilization                         .32054     .00164     .00000     1.0000     .00000    
+Denture doctor.NumberBusy                   .47889     (Corr)     .00000     1.0000     .00000    
+Denture doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Denture doctor.Utilization                  .47889     (Corr)     .00000     1.0000     .00000    
+orthodontist doctor.NumberBusy              .92721      7.1972E-5 .00000     1.0000     1.0000    
+orthodontist doctor.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+orthodontist doctor.Utilization             .92721      7.1972E-5 .00000     1.0000     1.0000    
+polisher.NumberBusy                         .07243      3.9670E-4 .00000     1.0000     1.0000    
+polisher.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+polisher.Utilization                        .07243      3.9670E-4 .00000     1.0000     1.0000    
+ultra sonic cleaner.NumberBusy              .17299     (Corr)     .00000     1.0000     .00000    
+ultra sonic cleaner.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ultra sonic cleaner.Utilization             .17299     (Corr)     .00000     1.0000     .00000    
+photographer.NumberBusy                     .06355      4.9608E-4 .00000     1.0000     .00000    
+photographer.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+photographer.Utilization                    .06355      4.9608E-4 .00000     1.0000     .00000    
+Implant doctor.NumberBusy                   .92929      1.0964E-4 .00000     1.0000     1.0000    
+Implant doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Implant doctor.Utilization                  .92929      1.0964E-4 .00000     1.0000     1.0000    
+UV machine.NumberBusy                       .03790      4.3149E-4 .00000     1.0000     .00000    
+UV machine.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+UV machine.Utilization                      .03790      4.3149E-4 .00000     1.0000     .00000    
+Addmission Worker.NumberBusy                .31249      2.2646E-4 .00000     1.0000     .00000    
+Addmission Worker.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Addmission Worker.Utilization               .31249      2.2646E-4 .00000     1.0000     .00000    
+brush.NumberBusy                            .07348      4.8896E-4 .00000     1.0000     .00000    
+brush.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+brush.Utilization                           .07348      4.8896E-4 .00000     1.0000     .00000    
+Thermoforming machine.NumberBusy            .19062     .00108     .00000     1.0000     1.0000    
+Thermoforming machine.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Thermoforming machine.Utilization           .19062     .00108     .00000     1.0000     1.0000    
+Admission.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Batch 2.Queue.NumberInQueue                 1.8345     .07073     .00000     5.0000     .00000    
+normal implant brush.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Batch 7.Queue.NumberInQueue                 1.5089     .02194     .00000     4.0000     2.0000    
+sature.Queue.NumberInQueue                  1.7482     .07175     .00000     16.000     10.000    
+implant fixture polishing.Queue.NumberInQu  .00844      6.0062E-4 .00000     5.0000     .00000    
+normal crown polish.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+sonication and immersion.Queue.NumberInQue  .00118      1.6975E-4 .00000     1.0000     .00000    
+Dentures polishing.Queue.NumberInQueue      .00144      2.5663E-4 .00000     3.0000     .00000    
+Dentures Examination.Queue.NumberInQueue    .23019     .01295     .00000     7.0000     .00000    
+join patient crown and fixture.Queue.Numbe  .88073     .03685     .00000     10.000     4.0000    
+Hold for call.Queue.NumberInQueue           471.30     3.6719     411.00     538.00     467.00    
+normal sonication and immersion.Queue.Numb  .00245      2.9944E-4 .00000     2.0000     .00000    
+Match 6.Queue1.NumberInQueue                1.4644     .00622     .00000     51.000     .00000    
+Match 6.Queue2.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+dentures UV curing.Queue.NumberInQueue      .05683      6.8103E-4 .00000     3.0000     .00000    
+crowns post cure.Queue.NumberInQueue        .00237      2.9745E-4 .00000     1.0000     .00000    
+aligners brush.Queue.NumberInQueue          .00421      2.3304E-4 .00000     1.0000     .00000    
+Implanr examination 1.Queue.NumberInQueue   584.87     (Corr)     166.00     984.00     981.00    
+normal crowns 3DP.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Batch 1.Queue.NumberInQueue                 3.9693     .14803     .00000     10.000     .00000    
+Batch 3.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Photographing.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+immediate fixtures 3DP.Queue.NumberInQueue  .00471      7.5842E-4 .00000     1.0000     .00000    
+Match 3.Queue1.NumberInQueue                .06937     .00428     .00000     4.0000     .00000    
+Match 3.Queue2.NumberInQueue                .08195     .00225     .00000     4.0000     .00000    
+immediate implant brush.Queue.NumberInQueu   2.5258E-5 (Insuf)    .00000     1.0000     .00000    
+aligners ultra sonic.Queue.NumberInQueue    .01410      9.7264E-4 .00000     3.0000     .00000    
+join patient and crown.Queue.NumberInQueue  1.7709     .08633     .00000     17.000     6.0000    
+Hold 6.Queue.NumberInQueue                  .43618     (Corr)     .00000     7.0000     1.0000    
+Hold 2.Queue.NumberInQueue                  6.0382     .07417     .00000     51.000     18.000    
+Hold 1.Queue.NumberInQueue                  2.9061     .02745     .00000     19.000     2.0000    
+aligners thermoforming.Queue.NumberInQueue  .01657      5.4175E-4 .00000     2.0000     .00000    
+3DP dentures base.Queue.NumberInQueue       .01665      9.3730E-4 .00000     2.0000     .00000    
+3DP aligners.Queue.NumberInQueue            .11810     .00315     .00000     4.0000     .00000    
+Batch 8.Queue.NumberInQueue                 7.5350     .06725     .00000     16.000     .00000    
+3DP crown.Queue.NumberInQueue               .01691     .00163     .00000     1.0000     .00000    
+dentures post cure.Queue.NumberInQueue      .05906      8.7478E-4 .00000     4.0000     .00000    
+normal implant fixture polishing.Queue.Num  .04961     .00100     .00000     10.000     .00000    
+examination by orthodentics.Queue.NumberIn  1.8038     .03797     .00000     16.000     4.0000    
+immediate crown polish.Queue.NumberInQueue  .01417      6.9449E-4 .00000     10.000     .00000    
+join patient and fixture.Queue.NumberInQue  2.1419     .09742     .00000     20.000     3.0000    
+aligners post cure.Queue.NumberInQueue      .01433      3.6609E-4 .00000     2.0000     .00000    
+immediate crowns 3DP.Queue.NumberInQueue    .00328      4.5733E-4 .00000     1.0000     .00000    
+restoration.Queue.NumberInQueue             3.9538     .03548     .00000     22.000     .00000    
+normal sonication and acid etched.Queue.Nu  .00847      7.7898E-4 .00000     2.0000     .00000    
+Batch 6.Queue.NumberInQueue                 1.5089     .02194     .00000     4.0000     2.0000    
+scanning process.Queue.NumberInQueue        .04962     .00120     .00000     4.0000     .00000    
+crowns brush.Queue.NumberInQueue             1.9849E-4 (Insuf)    .00000     1.0000     .00000    
+implant post cure.Queue.NumberInQueue        3.3763E-4 (Insuf)    .00000     1.0000     .00000    
+Orthodentics Examination.Queue.NumberInQue  1731.3     (Corr)     535.00     2922.0     2919.0    
+Implant examinatio 3.Queue.NumberInQueue    446.65     (Corr)     126.00     736.00     699.00    
+Implant examinatio 2.Queue.NumberInQueue    111.68     (Corr)     29.000     194.00     169.00    
+scanning2.Queue.NumberInQueue               .00752      3.1832E-4 .00000     2.0000     .00000    
+Match 1.Queue1.NumberInQueue                2.1497     .10492     .00000     10.000     .00000    
+Match 1.Queue2.NumberInQueue                .00347      5.9524E-4 .00000     5.0000     .00000    
+Denture installation.Queue.NumberInQueue    .42631     .01188     .00000     12.000     .00000    
+crowns polishing.Queue.NumberInQueue        .23002     .00235     .00000     16.000     .00000    
+Restoration Examination.Queue.NumberInQueu  .01034      6.0835E-4 .00000     1.0000     .00000    
+norma implant post cure.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+3DP dentures teeth.Queue.NumberInQueue      .05139     .00155     .00000     2.0000     .00000    
+sonication and acid etched.Queue.NumberInQ  .00416      2.6286E-4 .00000     1.0000     .00000    
+normal fixtures 3DP.Queue.NumberInQueue     .02100     .00117     .00000     3.0000     .00000    
+Batch 4.Queue.NumberInQueue                 2.0162     .02172     .00000     5.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+immediate_implant_count                        3006  Infinite
+denture_count                                 16590  Infinite
+restoration_count                             32880  Infinite
+two_stage_count                               11899  Infinite
+ortho_count                                   13889  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+normalized implant doctor                   1.0135    
+normalized Laboratory makespan              .14362    
+normalized orthodentics doctor              1.0450    
+normalized denture doctor                   .00000    
+normalized restoration doctor 1             .00000    
+normalized restoration doctor 2             .00000    
+doctors utilization                         .40000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+immediate implant 1.NumberIn                .00000    
+immediate implant 1.NumberOut               .00000    
+Implant type 2.NumberIn                     64309.    
+Implant type 2.NumberOut                    64259.    
+Implant type 1.NumberIn                     15910.    
+Implant type 1.NumberOut                    15930.    
+patient.NumberIn                            82128.    
+patient.NumberOut                           82129.    
+dentures_patient.NumberIn                   91214.    
+dentures_patient.NumberOut                  91246.    
+Implant_patient.NumberIn                    16401.    
+Implant_patient.NumberOut                   14913.    
+two stage implant 2.NumberIn                .00000    
+two stage implant 2.NumberOut               .00000    
+orthodontics_patient.NumberIn               44133.    
+orthodontics_patient.NumberOut              41667.    
+restorative_patient.NumberIn                 1.0069E+5
+restorative_patient.NumberOut                1.0070E+5
+post curing machine.NumberSeized            32864.    
+post curing machine.ScheduledUtilization    .23154    
+Restoration doctor 2.NumberSeized           19014.    
+Restoration doctor 2.ScheduledUtilization   .17354    
+Restoration doctor 1.NumberSeized           46743.    
+Restoration doctor 1.ScheduledUtilization   .62701    
+3DP.NumberSeized                            29930.    
+3DP.ScheduledUtilization                    .34627    
+Scanner.NumberSeized                        90192.    
+Scanner.ScheduledUtilization                .32054    
+Denture doctor.NumberSeized                 33142.    
+Denture doctor.ScheduledUtilization         .47889    
+orthodontist doctor.NumberSeized            77092.    
+orthodontist doctor.ScheduledUtilization    .92721    
+polisher.NumberSeized                       79308.    
+polisher.ScheduledUtilization               .07243    
+ultra sonic cleaner.NumberSeized            24644.    
+ultra sonic cleaner.ScheduledUtilization    .17299    
+photographer.NumberSeized                   13915.    
+photographer.ScheduledUtilization           .06355    
+Implant doctor.NumberSeized                 69220.    
+Implant doctor.ScheduledUtilization         .92929    
+UV machine.NumberSeized                     16592.    
+UV machine.ScheduledUtilization             .03790    
+Addmission Worker.NumberSeized              82128.    
+Addmission Worker.ScheduledUtilization      .31249    
+brush.NumberSeized                          16272.    
+brush.ScheduledUtilization                  .07348    
+Thermoforming machine.NumberSeized          13916.    
+Thermoforming machine.ScheduledUtilization  .19062    
+System.NumberOut                            78264.    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2022
+Analyst: None                                                        Model revision date: 2/ 3/2022
+
+Replication ended at time      : 4745.0 Days 
+Statistics were cleared at time: 1095.0 Days (Sunday, February 02, 2025, 00:00:00)
+Statistics accumulated for time: 3650.0 Days
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+tis_twostage_implant                        436.55     (Corr)     192.66     785.48      11889    
+tis_immediate_implant                       307.81     (Corr)     99.343     651.22       3040    
+tis_ortho_patients                          633.42     (Corr)     267.56     1075.5      13919    
+Laboratory makespan                         1.0466     .00655     .24444     21.577      89894    
+tis_restoration                             2.0870     .01238     .47617     4.8447      32800    
+tis_denture                                 71.431     .12748     56.588     86.875      16372    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+immediate implant 1.VATime                      --         --         --         --          0
+immediate implant 1.NVATime                     --         --         --         --          0
+immediate implant 1.WaitTime                    --         --         --         --          0
+immediate implant 1.TranTime                    --         --         --         --          0
+immediate implant 1.OtherTime                   --         --         --         --          0
+immediate implant 1.TotalTime                   --         --         --         --          0
+Implant type 2.VATime                       166.73     1.2605     100.96     361.24      11889    
+Implant type 2.NVATime                      .00000     .00000     .00000     .00000      11889    
+Implant type 2.WaitTime                     406.73     (Corr)     177.99     656.40      11889    
+Implant type 2.TranTime                     .08889     (Corr)     .08889     .08889      11889    
+Implant type 2.OtherTime                    .00000     .00000     .00000     .00000      11889    
+Implant type 2.TotalTime                    436.55     (Corr)     192.66     785.48      11889    
+Implant type 1.VATime                       19.419     2.3571     .42910     178.04       3040    
+Implant type 1.NVATime                      .00000     .00000     .00000     .00000       3040    
+Implant type 1.WaitTime                     299.08     (Corr)     90.041     526.11       3040    
+Implant type 1.TranTime                     .12222     (Corr)     .12222     .12222       3040    
+Implant type 1.OtherTime                    .00000     .00000     .00000     .00000       3040    
+Implant type 1.TotalTime                    307.81     (Corr)     99.343     651.22       3040    
+patient.VATime                                  --         --         --         --          0
+patient.NVATime                                 --         --         --         --          0
+patient.WaitTime                                --         --         --         --          0
+patient.TranTime                                --         --         --         --          0
+patient.OtherTime                               --         --         --         --          0
+patient.TotalTime                               --         --         --         --          0
+dentures_patient.VATime                     70.569     .12626     56.440     84.473      16372    
+dentures_patient.NVATime                    .00000     .00000     .00000     .00000      16372    
+dentures_patient.WaitTime                   2.3424     .02436     .46503     10.815      16372    
+dentures_patient.TranTime                   .05556     (Corr)     .05556     .05556      16372    
+dentures_patient.OtherTime                  .00000     .00000     .00000     .00000      16372    
+dentures_patient.TotalTime                  71.431     .12748     56.588     86.875      16372    
+Implant_patient.VATime                          --         --         --         --          0
+Implant_patient.NVATime                         --         --         --         --          0
+Implant_patient.WaitTime                        --         --         --         --          0
+Implant_patient.TranTime                        --         --         --         --          0
+Implant_patient.OtherTime                       --         --         --         --          0
+Implant_patient.TotalTime                       --         --         --         --          0
+two stage implant 2.VATime                      --         --         --         --          0
+two stage implant 2.NVATime                     --         --         --         --          0
+two stage implant 2.WaitTime                    --         --         --         --          0
+two stage implant 2.TranTime                    --         --         --         --          0
+two stage implant 2.OtherTime                   --         --         --         --          0
+two stage implant 2.TotalTime                   --         --         --         --          0
+orthodontics_patient.VATime                 273.38     .80506     140.58     483.90      13919    
+orthodontics_patient.NVATime                .00000     .00000     .00000     .00000      13919    
+orthodontics_patient.WaitTime               360.73     (Corr)     69.187     663.86      13919    
+orthodontics_patient.TranTime               .05556     (Corr)     .05556     .05556      13919    
+orthodontics_patient.OtherTime              .00000     .00000     .00000     .00000      13919    
+orthodontics_patient.TotalTime              633.42     (Corr)     267.56     1075.5      13919    
+restorative_patient.VATime                  .30583      1.9737E-4 .27343     .34641      32800    
+restorative_patient.NVATime                 .00000     .00000     .00000     .00000      32800    
+restorative_patient.WaitTime                3.2565     .02434     .49211     8.4864      32800    
+restorative_patient.TranTime                .05556     (Corr)     .05556     .05556      32800    
+restorative_patient.OtherTime               .00000     .00000     .00000     .00000      32800    
+restorative_patient.TotalTime               2.0870     .01238     .47617     4.8447      32800    
+Admission.Queue.WaitingTime                 .00000     .00000     .00000     .00000      82129    
+Batch 2.Queue.WaitingTime                   2.1897     .12166     .00000     14.400       3045    
+normal implant brush.Queue.WaitingTime          --         --         --         --          0
+Batch 7.Queue.WaitingTime                   .33503     .00855     .00000     3.2000      16372    
+sature.Queue.WaitingTime                    .53508     .01473      5.1678E-6 3.5066      11891    
+implant fixture polishing.Queue.WaitingTim  .01007      8.0540E-4 .00000     .06667       3045    
+normal crown polish.Queue.WaitingTime           --         --         --         --          0
+sonication and immersion.Queue.WaitingTime  .00703     .00144     .00000     .09684        609    
+Dentures polishing.Queue.WaitingTime         3.2671E-4  5.3566E-5 .00000     .04117      16370    
+Dentures Examination.Queue.WaitingTime      .05010     .00328     .00000     .70788      16364    
+join patient crown and fixture.Queue.Waiti  1.0639     .03669      4.9542E-5 3.6126       3040    
+Hold for call.Queue.WaitingTime             19.103     (Corr)     .30001     182.59      89894    
+normal sonication and immersion.Queue.Wait  .00176      1.9768E-4 .00000     .09685       4757    
+Match 6.Queue1.WaitingTime                  .05925      3.0667E-5 .04449     .07772      89903    
+Match 6.Queue2.WaitingTime                  .00000     .00000     .00000     .00000      89903    
+dentures UV curing.Queue.WaitingTime        .01254      5.5270E-5 .00000     .03275      16372    
+crowns post cure.Queue.WaitingTime          .00406      4.4755E-4 .00000     .05619       2050    
+aligners brush.Queue.WaitingTime            .00111      6.8628E-5 .00000     .02516      13905    
+Implanr examination 1.Queue.WaitingTime     141.80     (Corr)     50.840     241.19      15711    
+normal crowns 3DP.Queue.WaitingTime             --         --         --         --          0
+Batch 1.Queue.WaitingTime                   4.6685     .21593     .00000     21.333       3050    
+Batch 3.Queue.WaitingTime                       --         --         --         --          0
+Photographing.Queue.WaitingTime             .00000     .00000     .00000     .00000      13903    
+immediate fixtures 3DP.Queue.WaitingTime    .02777     .00373     .00000     .21668        609    
+Match 3.Queue1.WaitingTime                  .01418      7.9844E-4 .00000     .11059      16372    
+Match 3.Queue2.WaitingTime                  .01889      5.7451E-4 .00000     .05529      16372    
+immediate implant brush.Queue.WaitingTime    4.5969E-4 (Insuf)    .00000     .01931        305    
+aligners ultra sonic.Queue.WaitingTime      .00370      2.1600E-4 .00000     .12574      13905    
+join patient and crown.Queue.WaitingTime    .54580     .02083      8.9070E-6 3.8386      11890    
+Hold 6.Queue.WaitingTime                    .13249     .00147      1.3641E-5 .26666      11889    
+Hold 2.Queue.WaitingTime                    .24438     .00230      4.9674E-6 .53333      89894    
+Hold 1.Queue.WaitingTime                    .13607      6.7976E-4  1.7764E-6 .26667      78012    
+aligners thermoforming.Queue.WaitingTime    .00425      1.2423E-4 .00000     .05000      13905    
+3DP dentures base.Queue.WaitingTime         .01479     .00107     .00000     .22177       4093    
+3DP aligners.Queue.WaitingTime              .03077      9.6065E-4 .00000     .31691      13903    
+Batch 8.Queue.WaitingTime                   .83738     .00923     .00000     3.4666      32800    
+3DP crown.Queue.WaitingTime                 .03007     .00259     .00000     .24043       2050    
+dentures post cure.Queue.WaitingTime        .01284      9.8792E-5 .00000     .08522      16371    
+normal implant fixture polishing.Queue.Wai  .00759      2.0376E-4 .00000     .06659      23785    
+examination by orthodentics.Queue.WaitingT  .10316     .00157      1.6106E-5 .68178      63181    
+immediate crown polish.Queue.WaitingTime    .01699      5.8956E-4 .00000     .05556       3050    
+join patient and fixture.Queue.WaitingTime  .65602     .02146      1.4483E-5 3.4770      11894    
+aligners post cure.Queue.WaitingTime        .00379      9.6350E-5 .00000     .06618      13905    
+immediate crowns 3DP.Queue.WaitingTime      .03940     (Insuf)    .00000     .23052        305    
+restoration.Queue.WaitingTime               .43693     .00208     .00000     1.3049      32800    
+normal sonication and acid etched.Queue.Wa  .00667      5.5455E-4 .00000     .11111       4757    
+Batch 6.Queue.WaitingTime                   .33503     .00855     .00000     3.2000      16372    
+scanning process.Queue.WaitingTime          .00226      4.7916E-5 .00000     .05769      78012    
+crowns brush.Queue.WaitingTime               3.1648E-4  8.1031E-5 .00000     .02367       2050    
+implant post cure.Queue.WaitingTime         .00275     (Insuf)    .00000     .05004        305    
+Orthodentics Examination.Queue.WaitingTime  399.61     (Corr)     133.65     685.37      13904    
+Implant examinatio 3.Queue.WaitingTime      141.78     (Corr)     50.784     241.17      11893    
+Implant examinatio 2.Queue.WaitingTime      142.28     (Corr)     50.772     241.18       3043    
+scanning2.Queue.WaitingTime                 .00223      7.9175E-5 .00000     .01587      11891    
+Match 1.Queue1.WaitingTime                  2.4983     .14033     .00000     13.864       3050    
+Match 1.Queue2.WaitingTime                  .00489     (Corr)     .00000     .11224       3050    
+Denture installation.Queue.WaitingTime      .09132     .00197     .00000     .54621      16372    
+crowns polishing.Queue.WaitingTime          .02557      1.1902E-4 .00000     .06657      32800    
+Restoration Examination.Queue.WaitingTime   .00116      4.9688E-5 .00000     .03648      32800    
+norma implant post cure.Queue.WaitingTime       --         --         --         --          0
+3DP dentures teeth.Queue.WaitingTime        .04352     .00179     .00000     .26599       4093    
+sonication and acid etched.Queue.WaitingTi  .02308     .00177     .00000     .10000        609    
+normal fixtures 3DP.Queue.WaitingTime       .01568      9.3830E-4 .00000     .27475       4757    
+Batch 4.Queue.WaitingTime                   .30722     .00323     .00000     3.1777      23785    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+total titanium Value                        41878.     (Corr)     15048.     68706.     68706.    
+Dentures revenue Value                       2.8166E+6 (Corr)      1.0111E+6  4.6129E+6  4.6129E+6
+Restoration revenue Value                    1.0504E+6 (Corr)      3.9383E+5  1.7051E+6  1.7051E+6
+Dentures base LP resin usage Value           2.5482E+6 (Corr)      9.0760E+5  4.1818E+6  4.1818E+6
+Implant revenue Value                        2.1368E+6 (Corr)      7.6083E+5  3.5142E+6  3.5142E+6
+TotalProfit Value                            2.0198E+6 (Corr)      4.1272E+5  3.6484E+6  3.6477E+6
+total transportation cost Value              1.4241E+5 (Corr)     52416.      2.3220E+5  2.3220E+5
+total resin Value                            8.2529E+5 (Corr)      3.0977E+5  1.3394E+6  1.3394E+6
+Orthodontics revenue Value                   7.3658E+6 (Corr)      2.4541E+6  1.2292E+7  1.2292E+7
+total grey resin Value                       7.8779E+5 (Corr)      3.0135E+5  1.2745E+6  1.2745E+6
+fixed transportation cost Value             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+total cost Value                             1.1207E+7 (Corr)      4.1546E+6  1.8244E+7  1.8244E+7
+Dentures teeth A2 resin usage Value          1.7838E+6 (Corr)      6.3532E+5  2.9273E+6  2.9273E+6
+Entity 1.WIP                                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+immediate implant 1.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+Implant type 2.WIP                          1925.6     15.820     1761.0     2099.0     1972.0    
+Implant type 1.WIP                          18.501     .32804     .00000     69.000     40.000    
+patient.WIP                                 .31237      2.4523E-4 .00000     1.0000     1.0000    
+dentures_patient.WIP                        333.29     4.8162     279.00     416.00     323.00    
+Implant_patient.WIP                         1366.1     (Corr)     548.00     2189.0     2180.0    
+two stage implant 2.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+orthodontics_patient.WIP                    4932.2     (Corr)     3690.0     6178.0     6165.0    
+restorative_patient.WIP                     41.329     .20968     9.0000     80.000     26.000    
+post curing machine.NumberBusy              .23041     .00138     .00000     1.0000     1.0000    
+post curing machine.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+post curing machine.Utilization             .23041     .00138     .00000     1.0000     1.0000    
+Restoration doctor 2.NumberBusy             .17507     .00299     .00000     1.0000     .00000    
+Restoration doctor 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 2.Utilization            .17507     .00299     .00000     1.0000     .00000    
+Restoration doctor 1.NumberBusy             .62392     .00392     .00000     1.0000     .00000    
+Restoration doctor 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 1.Utilization            .62392     .00392     .00000     1.0000     .00000    
+3DP.NumberBusy                              .68899     .00512     .00000     2.0000     .00000    
+3DP.NumberScheduled                         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+3DP.Utilization                             .34450     .00256     .00000     1.0000     .00000    
+Scanner.NumberBusy                          .31935     .00143     .00000     1.0000     .00000    
+Scanner.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner.Utilization                         .31935     .00143     .00000     1.0000     .00000    
+Denture doctor.NumberBusy                   .47310     .00651     .00000     1.0000     .00000    
+Denture doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Denture doctor.Utilization                  .47310     .00651     .00000     1.0000     .00000    
+orthodontist doctor.NumberBusy              .92720      6.9688E-5 .00000     1.0000     1.0000    
+orthodontist doctor.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+orthodontist doctor.Utilization             .92720      6.9688E-5 .00000     1.0000     1.0000    
+polisher.NumberBusy                         .07219      3.2395E-4 .00000     1.0000     .00000    
+polisher.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+polisher.Utilization                        .07219      3.2395E-4 .00000     1.0000     .00000    
+ultra sonic cleaner.NumberBusy              .17301      6.4143E-4 .00000     1.0000     .00000    
+ultra sonic cleaner.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ultra sonic cleaner.Utilization             .17301      6.4143E-4 .00000     1.0000     .00000    
+photographer.NumberBusy                     .06377      3.5722E-4 .00000     1.0000     .00000    
+photographer.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+photographer.Utilization                    .06377      3.5722E-4 .00000     1.0000     .00000    
+Implant doctor.NumberBusy                   .92926      1.1730E-4 .00000     1.0000     1.0000    
+Implant doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Implant doctor.Utilization                  .92926      1.1730E-4 .00000     1.0000     1.0000    
+UV machine.NumberBusy                       .03747      6.3674E-4 .00000     1.0000     .00000    
+UV machine.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+UV machine.Utilization                      .03747      6.3674E-4 .00000     1.0000     .00000    
+Addmission Worker.NumberBusy                .31237      2.4523E-4 .00000     1.0000     1.0000    
+Addmission Worker.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Addmission Worker.Utilization               .31237      2.4523E-4 .00000     1.0000     1.0000    
+brush.NumberBusy                            .07348      3.9629E-4 .00000     1.0000     .00000    
+brush.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+brush.Utilization                           .07348      3.9629E-4 .00000     1.0000     .00000    
+Thermoforming machine.NumberBusy            .19048      8.5790E-4 .00000     1.0000     .00000    
+Thermoforming machine.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Thermoforming machine.Utilization           .19048      8.5790E-4 .00000     1.0000     .00000    
+Admission.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Batch 2.Queue.NumberInQueue                 1.8258     .07380     .00000     5.0000     .00000    
+normal implant brush.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Batch 7.Queue.NumberInQueue                 1.5024     .02406     .00000     4.0000     1.0000    
+sature.Queue.NumberInQueue                  1.7433     .05501     .00000     15.000     3.0000    
+implant fixture polishing.Queue.NumberInQu  .00840      6.7606E-4 .00000     5.0000     .00000    
+normal crown polish.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+sonication and immersion.Queue.NumberInQue  .00117     (Insuf)    .00000     1.0000     .00000    
+Dentures polishing.Queue.NumberInQueue      .00147      2.3920E-4 .00000     3.0000     .00000    
+Dentures Examination.Queue.NumberInQueue    .22462     .01467     .00000     6.0000     .00000    
+join patient crown and fixture.Queue.Numbe  .88613     .03868     .00000     10.000     .00000    
+Hold for call.Queue.NumberInQueue           470.83     3.7911     417.00     535.00     488.00    
+normal sonication and immersion.Queue.Numb  .00229      2.6960E-4 .00000     2.0000     .00000    
+Match 6.Queue1.NumberInQueue                1.4592     .00589     .00000     51.000     .00000    
+Match 6.Queue2.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+dentures UV curing.Queue.NumberInQueue      .05623      9.2738E-4 .00000     3.0000     .00000    
+crowns post cure.Queue.NumberInQueue        .00228      2.9478E-4 .00000     1.0000     .00000    
+aligners brush.Queue.NumberInQueue          .00421      2.5464E-4 .00000     1.0000     .00000    
+Implanr examination 1.Queue.NumberInQueue   643.96     (Corr)     227.00     1095.0     1087.0    
+normal crowns 3DP.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Batch 1.Queue.NumberInQueue                 3.8918     .11299     .00000     10.000     .00000    
+Batch 3.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Photographing.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+immediate fixtures 3DP.Queue.NumberInQueue  .00463      5.8486E-4 .00000     1.0000     .00000    
+Match 3.Queue1.NumberInQueue                .06362     .00363     .00000     4.0000     .00000    
+Match 3.Queue2.NumberInQueue                .08471     .00290     .00000     4.0000     .00000    
+immediate implant brush.Queue.NumberInQueu   3.8413E-5 (Insuf)    .00000     1.0000     .00000    
+aligners ultra sonic.Queue.NumberInQueue    .01410      9.0269E-4 .00000     2.0000     .00000    
+join patient and crown.Queue.NumberInQueue  1.7780     .06873     .00000     14.000     1.0000    
+Hold 6.Queue.NumberInQueue                  .43162     .00606     .00000     6.0000     2.0000    
+Hold 2.Queue.NumberInQueue                  6.0198     .05938     .00000     51.000     17.000    
+Hold 1.Queue.NumberInQueue                  2.9083     .02050     .00000     18.000     4.0000    
+aligners thermoforming.Queue.NumberInQueue  .01618      5.1210E-4 .00000     1.0000     .00000    
+3DP dentures base.Queue.NumberInQueue       .01659     .00120     .00000     2.0000     .00000    
+3DP aligners.Queue.NumberInQueue            .11721     .00364     .00000     4.0000     .00000    
+Batch 8.Queue.NumberInQueue                 7.5251     .05654     .00000     16.000     10.000    
+3DP crown.Queue.NumberInQueue               .01689     .00164     .00000     1.0000     .00000    
+dentures post cure.Queue.NumberInQueue      .05758     .00104     .00000     4.0000     1.0000    
+normal implant fixture polishing.Queue.Num  .04943     .00130     .00000     10.000     .00000    
+examination by orthodentics.Queue.NumberIn  1.7856     (Corr)     .00000     17.000     .00000    
+immediate crown polish.Queue.NumberInQueue  .01420      6.7470E-4 .00000     10.000     .00000    
+join patient and fixture.Queue.NumberInQue  2.1377     .06843     .00000     21.000     .00000    
+aligners post cure.Queue.NumberInQueue      .01445      3.9313E-4 .00000     2.0000     .00000    
+immediate crowns 3DP.Queue.NumberInQueue    .00329      4.1464E-4 .00000     1.0000     .00000    
+restoration.Queue.NumberInQueue             3.9264     .03359     .00000     22.000     .00000    
+normal sonication and acid etched.Queue.Nu  .00869      8.7057E-4 .00000     2.0000     .00000    
+Batch 6.Queue.NumberInQueue                 1.5024     .02406     .00000     4.0000     1.0000    
+scanning process.Queue.NumberInQueue        .04822     .00119     .00000     5.0000     .00000    
+crowns brush.Queue.NumberInQueue             1.7775E-4 (Insuf)    .00000     1.0000     .00000    
+implant post cure.Queue.NumberInQueue        2.2978E-4 (Insuf)    .00000     1.0000     .00000    
+Orthodentics Examination.Queue.NumberInQue  1801.2     (Corr)     580.00     3091.0     3090.0    
+Implant examinatio 3.Queue.NumberInQueue    486.95     (Corr)     167.00     829.00     827.00    
+Implant examinatio 2.Queue.NumberInQueue    124.84     (Corr)     40.000     220.00     183.00    
+scanning2.Queue.NumberInQueue               .00727      2.8003E-4 .00000     2.0000     .00000    
+Match 1.Queue1.NumberInQueue                2.0833     .09326     .00000     10.000     .00000    
+Match 1.Queue2.NumberInQueue                .00409     (Corr)     .00000     5.0000     .00000    
+Denture installation.Queue.NumberInQueue    .40961     .01461     .00000     10.000     .00000    
+crowns polishing.Queue.NumberInQueue        .22974     .00257     .00000     16.000     .00000    
+Restoration Examination.Queue.NumberInQueu  .01044      4.8118E-4 .00000     1.0000     .00000    
+norma implant post cure.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+3DP dentures teeth.Queue.NumberInQueue      .04880     .00195     .00000     2.0000     .00000    
+sonication and acid etched.Queue.NumberInQ  .00385      3.5084E-4 .00000     1.0000     .00000    
+normal fixtures 3DP.Queue.NumberInQueue     .02044     .00134     .00000     2.0000     .00000    
+Batch 4.Queue.NumberInQueue                 2.0022     .02045     .00000     5.0000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+immediate_implant_count                        3040  Infinite
+denture_count                                 16372  Infinite
+restoration_count                             32800  Infinite
+two_stage_count                               11889  Infinite
+ortho_count                                   13919  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+normalized implant doctor                   1.0135    
+normalized Laboratory makespan              .61364    
+normalized orthodentics doctor              1.0450    
+normalized denture doctor                   .00000    
+normalized restoration doctor 1             .00000    
+normalized restoration doctor 2             .00000    
+doctors utilization                         .40000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+immediate implant 1.NumberIn                .00000    
+immediate implant 1.NumberOut               .00000    
+Implant type 2.NumberIn                     64221.    
+Implant type 2.NumberOut                    64202.    
+Implant type 1.NumberIn                     16133.    
+Implant type 1.NumberOut                    16114.    
+patient.NumberIn                            82129.    
+patient.NumberOut                           82128.    
+dentures_patient.NumberIn                   90036.    
+dentures_patient.NumberOut                  90046.    
+Implant_patient.NumberIn                    16558.    
+Implant_patient.NumberOut                   14937.    
+two stage implant 2.NumberIn                .00000    
+two stage implant 2.NumberOut               .00000    
+orthodontics_patient.NumberIn               44215.    
+orthodontics_patient.NumberOut              41757.    
+restorative_patient.NumberIn                 1.0045E+5
+restorative_patient.NumberOut                1.0045E+5
+post curing machine.NumberSeized            32631.    
+post curing machine.ScheduledUtilization    .23041    
+Restoration doctor 2.NumberSeized           19160.    
+Restoration doctor 2.ScheduledUtilization   .17507    
+Restoration doctor 1.NumberSeized           46440.    
+Restoration doctor 1.ScheduledUtilization   .62392    
+3DP.NumberSeized                            29810.    
+3DP.ScheduledUtilization                    .34450    
+Scanner.NumberSeized                        89903.    
+Scanner.ScheduledUtilization                .31935    
+Denture doctor.NumberSeized                 32736.    
+Denture doctor.ScheduledUtilization         .47310    
+orthodontist doctor.NumberSeized            77085.    
+orthodontist doctor.ScheduledUtilization    .92720    
+polisher.NumberSeized                       79050.    
+polisher.ScheduledUtilization               .07219    
+ultra sonic cleaner.NumberSeized            24637.    
+ultra sonic cleaner.ScheduledUtilization    .17301    
+photographer.NumberSeized                   13903.    
+photographer.ScheduledUtilization           .06377    
+Implant doctor.NumberSeized                 69362.    
+Implant doctor.ScheduledUtilization         .92926    
+UV machine.NumberSeized                     16372.    
+UV machine.ScheduledUtilization             .03747    
+Addmission Worker.NumberSeized              82129.    
+Addmission Worker.ScheduledUtilization      .31237    
+brush.NumberSeized                          16260.    
+brush.ScheduledUtilization                  .07348    
+Thermoforming machine.NumberSeized          13905.    
+Thermoforming machine.ScheduledUtilization  .19048    
+System.NumberOut                            78020.    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2022
+Analyst: None                                                        Model revision date: 2/ 3/2022
+
+Replication ended at time      : 4745.0 Days 
+Statistics were cleared at time: 1095.0 Days (Sunday, February 02, 2025, 00:00:00)
+Statistics accumulated for time: 3650.0 Days
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+tis_twostage_implant                        387.90     (Corr)     175.41     744.94      11868    
+tis_immediate_implant                       254.77     (Corr)     69.679     573.01       3050    
+tis_ortho_patients                          667.39     (Corr)     282.65     1107.5      13951    
+Laboratory makespan                         1.0441     .00551     .24444     20.777      90124    
+tis_restoration                             2.0732     .00843     .50646     4.5721      32815    
+tis_denture                                 71.360     .15843     56.627     87.254      16548    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+immediate implant 1.VATime                      --         --         --         --          0
+immediate implant 1.NVATime                     --         --         --         --          0
+immediate implant 1.WaitTime                    --         --         --         --          0
+immediate implant 1.TranTime                    --         --         --         --          0
+immediate implant 1.OtherTime                   --         --         --         --          0
+immediate implant 1.TotalTime                   --         --         --         --          0
+Implant type 2.VATime                       166.22     .94996     100.77     361.61      11868    
+Implant type 2.NVATime                      .00000     .00000     .00000     .00000      11868    
+Implant type 2.WaitTime                     358.08     (Corr)     164.07     602.31      11868    
+Implant type 2.TranTime                     .08889     (Corr)     .08889     .08889      11868    
+Implant type 2.OtherTime                    .00000     .00000     .00000     .00000      11868    
+Implant type 2.TotalTime                    387.90     (Corr)     175.41     744.94      11868    
+Implant type 1.VATime                       19.794     1.9612     .42331     179.63       3050    
+Implant type 1.NVATime                      .00000     .00000     .00000     .00000       3050    
+Implant type 1.WaitTime                     245.81     (Corr)     68.898     468.33       3050    
+Implant type 1.TranTime                     .12222     (Corr)     .12222     .12222       3050    
+Implant type 1.OtherTime                    .00000     .00000     .00000     .00000       3050    
+Implant type 1.TotalTime                    254.77     (Corr)     69.679     573.01       3050    
+patient.VATime                                  --         --         --         --          0
+patient.NVATime                                 --         --         --         --          0
+patient.WaitTime                                --         --         --         --          0
+patient.TranTime                                --         --         --         --          0
+patient.OtherTime                               --         --         --         --          0
+patient.TotalTime                               --         --         --         --          0
+dentures_patient.VATime                     70.486     .15639     56.443     84.477      16548    
+dentures_patient.NVATime                    .00000     .00000     .00000     .00000      16548    
+dentures_patient.WaitTime                   2.3611     .02133     .45895     9.5330      16548    
+dentures_patient.TranTime                   .05556     (Corr)     .05556     .05556      16548    
+dentures_patient.OtherTime                  .00000     .00000     .00000     .00000      16548    
+dentures_patient.TotalTime                  71.360     .15843     56.627     87.254      16548    
+Implant_patient.VATime                          --         --         --         --          0
+Implant_patient.NVATime                         --         --         --         --          0
+Implant_patient.WaitTime                        --         --         --         --          0
+Implant_patient.TranTime                        --         --         --         --          0
+Implant_patient.OtherTime                       --         --         --         --          0
+Implant_patient.TotalTime                       --         --         --         --          0
+two stage implant 2.VATime                      --         --         --         --          0
+two stage implant 2.NVATime                     --         --         --         --          0
+two stage implant 2.WaitTime                    --         --         --         --          0
+two stage implant 2.TranTime                    --         --         --         --          0
+two stage implant 2.OtherTime                   --         --         --         --          0
+two stage implant 2.TotalTime                   --         --         --         --          0
+orthodontics_patient.VATime                 272.85     .93402     140.71     491.34      13951    
+orthodontics_patient.NVATime                .00000     .00000     .00000     .00000      13951    
+orthodontics_patient.WaitTime               395.23     (Corr)     82.873     690.87      13951    
+orthodontics_patient.TranTime               .05556     (Corr)     .05556     .05556      13951    
+orthodontics_patient.OtherTime              .00000     .00000     .00000     .00000      13951    
+orthodontics_patient.TotalTime              667.39     (Corr)     282.65     1107.5      13951    
+restorative_patient.VATime                  .30581      1.9990E-4 .27151     .34244      32815    
+restorative_patient.NVATime                 .00000     .00000     .00000     .00000      32815    
+restorative_patient.WaitTime                3.2258     .01605     .54458     8.1337      32815    
+restorative_patient.TranTime                .05556     (Corr)     .05556     .05556      32815    
+restorative_patient.OtherTime               .00000     .00000     .00000     .00000      32815    
+restorative_patient.TotalTime               2.0732     .00843     .50646     4.5721      32815    
+Admission.Queue.WaitingTime                 .00000     .00000     .00000     .00000      82130    
+Batch 2.Queue.WaitingTime                   2.1939     .10510     .00000     12.800       3045    
+normal implant brush.Queue.WaitingTime          --         --         --         --          0
+Batch 7.Queue.WaitingTime                   .33219     .00644     .00000     2.6666      16544    
+sature.Queue.WaitingTime                    .54582     (Corr)      1.9734E-5 3.3858      11930    
+implant fixture polishing.Queue.WaitingTim  .01017      9.5633E-4 .00000     .06544       3045    
+normal crown polish.Queue.WaitingTime           --         --         --         --          0
+sonication and immersion.Queue.WaitingTime  .00762     .00120     .00000     .07976        609    
+Dentures polishing.Queue.WaitingTime         2.9665E-4  4.8436E-5 .00000     .03667      16544    
+Dentures Examination.Queue.WaitingTime      .05025     .00186     .00000     .70366      16535    
+join patient crown and fixture.Queue.Waiti  1.0577     .04153      3.7273E-4 3.1719       3050    
+Hold for call.Queue.WaitingTime             18.957     .30862     .30024     182.29      90124    
+normal sonication and immersion.Queue.Wait  .00193      2.4320E-4 .00000     .10863       4758    
+Match 6.Queue1.WaitingTime                  .05924      5.2415E-5 .04450     .07770      90134    
+Match 6.Queue2.WaitingTime                  .00000     .00000     .00000     .00000      90134    
+dentures UV curing.Queue.WaitingTime        .01252      4.2212E-5 .00000     .03281      16544    
+crowns post cure.Queue.WaitingTime          .00410      3.4470E-4 .00000     .05987       2051    
+aligners brush.Queue.WaitingTime            .00106      7.2243E-5 .00000     .02494      13926    
+Implanr examination 1.Queue.WaitingTime     115.08     (Corr)     32.640     203.11      15582    
+normal crowns 3DP.Queue.WaitingTime             --         --         --         --          0
+Batch 1.Queue.WaitingTime                   4.7086     .24198     .00000     20.266       3040    
+Batch 3.Queue.WaitingTime                       --         --         --         --          0
+Photographing.Queue.WaitingTime             .00000     .00000     .00000     .00000      13928    
+immediate fixtures 3DP.Queue.WaitingTime    .03209     .00382     .00000     .23396        609    
+Match 3.Queue1.WaitingTime                  .01551      9.2700E-4 .00000     .11083      16544    
+Match 3.Queue2.WaitingTime                  .01803      4.5942E-4 .00000     .05447      16544    
+immediate implant brush.Queue.WaitingTime    4.6993E-4 (Insuf)    .00000     .02062        304    
+aligners ultra sonic.Queue.WaitingTime      .00386      2.3422E-4 .00000     .12687      13926    
+join patient and crown.Queue.WaitingTime    .54187     .01944      8.4959E-6 3.2267      11868    
+Hold 6.Queue.WaitingTime                    .13293     (Corr)      5.4658E-6 .26663      11869    
+Hold 2.Queue.WaitingTime                    .24305     .00194      3.4828E-7 .53333      90124    
+Hold 1.Queue.WaitingTime                    .13565      7.3703E-4  7.2600E-6 .26666      78256    
+aligners thermoforming.Queue.WaitingTime    .00438      1.2379E-4 .00000     .06667      13925    
+3DP dentures base.Queue.WaitingTime         .01609      9.0208E-4 .00000     .21132       4136    
+3DP aligners.Queue.WaitingTime              .03044     .00113     .00000     .36192      13927    
+Batch 8.Queue.WaitingTime                   .83069     .01050     .00000     3.2000      32800    
+3DP crown.Queue.WaitingTime                 .03057     .00259     .00000     .24193       2050    
+dentures post cure.Queue.WaitingTime        .01293      1.3429E-4 .00000     .07403      16544    
+normal implant fixture polishing.Queue.Wai  .00757      1.7259E-4 .00000     .06667      23790    
+examination by orthodentics.Queue.WaitingT  .10387     .00189      3.7123E-6 .67753      63166    
+immediate crown polish.Queue.WaitingTime    .01707     (Corr)     .00000     .05556       3040    
+join patient and fixture.Queue.WaitingTime  .64954     (Corr)      3.9498E-5 3.5266      11922    
+aligners post cure.Queue.WaitingTime        .00383      1.2768E-4 .00000     .06667      13926    
+immediate crowns 3DP.Queue.WaitingTime      .04319     (Insuf)    .00000     .24850        304    
+restoration.Queue.WaitingTime               .43996     .00203     .00000     1.3701      32816    
+normal sonication and acid etched.Queue.Wa  .00649      5.1654E-4 .00000     .11111       4758    
+Batch 6.Queue.WaitingTime                   .33219     .00644     .00000     2.6666      16544    
+scanning process.Queue.WaitingTime          .00233      5.6742E-5 .00000     .07228      78254    
+crowns brush.Queue.WaitingTime               3.3357E-4  8.2150E-5 .00000     .02238       2051    
+implant post cure.Queue.WaitingTime         .00376     (Insuf)    .00000     .05508        304    
+Orthodentics Examination.Queue.WaitingTime  435.41     (Corr)     152.37     713.06      13927    
+Implant examinatio 3.Queue.WaitingTime      115.26     (Corr)     32.391     202.71      11920    
+Implant examinatio 2.Queue.WaitingTime      114.34     (Corr)     32.560     202.47       3048    
+scanning2.Queue.WaitingTime                 .00220      6.1973E-5 .00000     .01607      11930    
+Match 1.Queue1.WaitingTime                  2.5346     .17243     .00000     13.658       3040    
+Match 1.Queue2.WaitingTime                  .00465      8.9406E-4 .00000     .11134       3040    
+Denture installation.Queue.WaitingTime      .09467     .00171     .00000     .51626      16548    
+crowns polishing.Queue.WaitingTime          .02552      1.1369E-4 .00000     .06648      32816    
+Restoration Examination.Queue.WaitingTime   .00116      5.9827E-5 .00000     .03567      32813    
+norma implant post cure.Queue.WaitingTime       --         --         --         --          0
+3DP dentures teeth.Queue.WaitingTime        .04684     .00121     .00000     .26392       4136    
+sonication and acid etched.Queue.WaitingTi  .02339     .00216     .00000     .10000        609    
+normal fixtures 3DP.Queue.WaitingTime       .01622      7.9070E-4 .00000     .25826       4758    
+Batch 4.Queue.WaitingTime                   .30725     .00372     .00000     3.2000      23790    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+total titanium Value                        41858.     (Corr)     15072.     68750.     68750.    
+Dentures revenue Value                       2.8463E+6 (Corr)      1.0222E+6  4.6614E+6  4.6614E+6
+Restoration revenue Value                    1.0488E+6 (Corr)      3.9101E+5  1.7044E+6  1.7044E+6
+Dentures base LP resin usage Value           2.5766E+6 (Corr)      9.1780E+5  4.2270E+6  4.2270E+6
+Implant revenue Value                        2.1410E+6 (Corr)      7.6134E+5  3.5185E+6  3.5185E+6
+TotalProfit Value                            2.0175E+6 (Corr)      4.0832E+5  3.6376E+6  3.6368E+6
+total transportation cost Value              1.4255E+5 (Corr)     52372.      2.3262E+5  2.3262E+5
+total resin Value                            8.2345E+5 (Corr)      3.0741E+5  1.3375E+6  1.3375E+6
+Orthodontics revenue Value                   7.3656E+6 (Corr)      2.4452E+6  1.2292E+7  1.2292E+7
+total grey resin Value                       7.8833E+5 (Corr)      3.0114E+5  1.2760E+6  1.2760E+6
+fixed transportation cost Value             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+total cost Value                             1.1242E+7 (Corr)      4.1570E+6  1.8307E+7  1.8307E+7
+Dentures teeth A2 resin usage Value          1.8036E+6 (Corr)      6.4246E+5  2.9589E+6  2.9589E+6
+Entity 1.WIP                                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+immediate implant 1.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+Implant type 2.WIP                          1920.8     16.578     1732.0     2089.0     2016.0    
+Implant type 1.WIP                          18.680     .42078     .00000     70.000     24.000    
+patient.WIP                                 .31260      2.8396E-4 .00000     1.0000     1.0000    
+dentures_patient.WIP                        336.84     3.3189     284.00     415.00     313.00    
+Implant_patient.WIP                         1119.7     (Corr)     429.00     1843.0     1828.0    
+two stage implant 2.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+orthodontics_patient.WIP                    5089.0     (Corr)     3839.0     6335.0     6328.0    
+restorative_patient.WIP                     41.128     .30373     10.000     86.000     31.000    
+post curing machine.NumberBusy              .23140     .00130     .00000     1.0000     1.0000    
+post curing machine.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+post curing machine.Utilization             .23140     .00130     .00000     1.0000     1.0000    
+Restoration doctor 2.NumberBusy             .17308     .00350     .00000     1.0000     .00000    
+Restoration doctor 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 2.Utilization            .17308     .00350     .00000     1.0000     .00000    
+Restoration doctor 1.NumberBusy             .62617     .00545     .00000     1.0000     1.0000    
+Restoration doctor 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 1.Utilization            .62617     .00545     .00000     1.0000     1.0000    
+3DP.NumberBusy                              .69184     .00441     .00000     2.0000     1.0000    
+3DP.NumberScheduled                         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+3DP.Utilization                             .34592     .00221     .00000     1.0000     .50000    
+Scanner.NumberBusy                          .32054     .00179     .00000     1.0000     .00000    
+Scanner.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner.Utilization                         .32054     .00179     .00000     1.0000     .00000    
+Denture doctor.NumberBusy                   .47807     .00533     .00000     1.0000     1.0000    
+Denture doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Denture doctor.Utilization                  .47807     .00533     .00000     1.0000     1.0000    
+orthodontist doctor.NumberBusy              .92717      7.1470E-5 .00000     1.0000     1.0000    
+orthodontist doctor.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+orthodontist doctor.Utilization             .92717      7.1470E-5 .00000     1.0000     1.0000    
+polisher.NumberBusy                         .07236      3.7385E-4 .00000     1.0000     .00000    
+polisher.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+polisher.Utilization                        .07236      3.7385E-4 .00000     1.0000     .00000    
+ultra sonic cleaner.NumberBusy              .17310      8.7197E-4 .00000     1.0000     .00000    
+ultra sonic cleaner.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ultra sonic cleaner.Utilization             .17310      8.7197E-4 .00000     1.0000     .00000    
+photographer.NumberBusy                     .06368      5.3021E-4 .00000     1.0000     .00000    
+photographer.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+photographer.Utilization                    .06368      5.3021E-4 .00000     1.0000     .00000    
+Implant doctor.NumberBusy                   .92925      9.0596E-5 .00000     1.0000     1.0000    
+Implant doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Implant doctor.Utilization                  .92925      9.0596E-5 .00000     1.0000     1.0000    
+UV machine.NumberBusy                       .03780      5.9424E-4 .00000     1.0000     .00000    
+UV machine.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+UV machine.Utilization                      .03780      5.9424E-4 .00000     1.0000     .00000    
+Addmission Worker.NumberBusy                .31260      2.8396E-4 .00000     1.0000     1.0000    
+Addmission Worker.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Addmission Worker.Utilization               .31260      2.8396E-4 .00000     1.0000     1.0000    
+brush.NumberBusy                            .07344      4.8878E-4 .00000     1.0000     .00000    
+brush.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+brush.Utilization                           .07344      4.8878E-4 .00000     1.0000     .00000    
+Thermoforming machine.NumberBusy            .19075     .00120     .00000     1.0000     1.0000    
+Thermoforming machine.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Thermoforming machine.Utilization           .19075     .00120     .00000     1.0000     1.0000    
+Admission.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Batch 2.Queue.NumberInQueue                 1.8306     (Corr)     .00000     5.0000     3.0000    
+normal implant brush.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Batch 7.Queue.NumberInQueue                 1.5061     .02110     .00000     4.0000     3.0000    
+sature.Queue.NumberInQueue                  1.7840     .06381     .00000     16.000     1.0000    
+implant fixture polishing.Queue.NumberInQu  .00848      7.6295E-4 .00000     5.0000     .00000    
+normal crown polish.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+sonication and immersion.Queue.NumberInQue  .00127      1.9539E-4 .00000     1.0000     .00000    
+Dentures polishing.Queue.NumberInQueue      .00134      1.8833E-4 .00000     3.0000     .00000    
+Dentures Examination.Queue.NumberInQueue    .22763     .00837     .00000     6.0000     .00000    
+join patient crown and fixture.Queue.Numbe  .88388     .04209     .00000     10.000     .00000    
+Hold for call.Queue.NumberInQueue           469.51     4.0187     409.00     533.00     505.00    
+normal sonication and immersion.Queue.Numb  .00252      2.6998E-4 .00000     2.0000     .00000    
+Match 6.Queue1.NumberInQueue                1.4627     .00718     .00000     49.000     .00000    
+Match 6.Queue2.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+dentures UV curing.Queue.NumberInQueue      .05675      8.0403E-4 .00000     3.0000     .00000    
+crowns post cure.Queue.NumberInQueue        .00231      1.9843E-4 .00000     1.0000     .00000    
+aligners brush.Queue.NumberInQueue          .00406      2.8826E-4 .00000     1.0000     .00000    
+Implanr examination 1.Queue.NumberInQueue   516.49     (Corr)     135.00     942.00     926.00    
+normal crowns 3DP.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Batch 1.Queue.NumberInQueue                 3.9262     .14306     .00000     10.000     8.0000    
+Batch 3.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Photographing.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+immediate fixtures 3DP.Queue.NumberInQueue  .00535      7.2611E-4 .00000     1.0000     .00000    
+Match 3.Queue1.NumberInQueue                .07028     .00457     .00000     4.0000     .00000    
+Match 3.Queue2.NumberInQueue                .08174     .00262     .00000     4.0000     .00000    
+immediate implant brush.Queue.NumberInQueu   3.9139E-5 (Insuf)    .00000     1.0000     .00000    
+aligners ultra sonic.Queue.NumberInQueue    .01471      7.6626E-4 .00000     2.0000     .00000    
+join patient and crown.Queue.NumberInQueue  1.7619     .07615     .00000     17.000     1.0000    
+Hold 6.Queue.NumberInQueue                  .43231     .00784     .00000     6.0000     1.0000    
+Hold 2.Queue.NumberInQueue                  6.0012     .07478     .00000     49.000     5.0000    
+Hold 1.Queue.NumberInQueue                  2.9083     .02558     .00000     19.000     3.0000    
+aligners thermoforming.Queue.NumberInQueue  .01673      4.6282E-4 .00000     2.0000     .00000    
+3DP dentures base.Queue.NumberInQueue       .01824     (Corr)     .00000     2.0000     .00000    
+3DP aligners.Queue.NumberInQueue            .11616     .00531     .00000     5.0000     .00000    
+Batch 8.Queue.NumberInQueue                 7.4673     .05611     .00000     16.000     13.000    
+3DP crown.Queue.NumberInQueue               .01717     .00146     .00000     1.0000     .00000    
+dentures post cure.Queue.NumberInQueue      .05861      7.8531E-4 .00000     4.0000     .00000    
+normal implant fixture polishing.Queue.Num  .04936      8.1195E-4 .00000     10.000     .00000    
+examination by orthodentics.Queue.NumberIn  1.7976     .03361     .00000     17.000     2.0000    
+immediate crown polish.Queue.NumberInQueue  .01422      6.7479E-4 .00000     10.000     .00000    
+join patient and fixture.Queue.NumberInQue  2.1220     (Corr)     .00000     18.000     4.0000    
+aligners post cure.Queue.NumberInQueue      .01463      4.3771E-4 .00000     2.0000     .00000    
+immediate crowns 3DP.Queue.NumberInQueue    .00360      5.4151E-4 .00000     1.0000     .00000    
+restoration.Queue.NumberInQueue             3.9555     .04449     .00000     23.000     .00000    
+normal sonication and acid etched.Queue.Nu  .00847      7.7374E-4 .00000     2.0000     .00000    
+Batch 6.Queue.NumberInQueue                 1.5061     .02110     .00000     4.0000     3.0000    
+scanning process.Queue.NumberInQueue        .04987     .00146     .00000     5.0000     .00000    
+crowns brush.Queue.NumberInQueue             1.8744E-4 (Insuf)    .00000     1.0000     .00000    
+implant post cure.Queue.NumberInQueue        3.1333E-4 (Insuf)    .00000     1.0000     .00000    
+Orthodentics Examination.Queue.NumberInQue  1959.8     (Corr)     732.00     3242.0     3240.0    
+Implant examinatio 3.Queue.NumberInQueue    393.69     (Corr)     110.00     700.00     643.00    
+Implant examinatio 2.Queue.NumberInQueue    100.42     (Corr)     28.000     192.00     171.00    
+scanning2.Queue.NumberInQueue               .00720      2.3806E-4 .00000     2.0000     .00000    
+Match 1.Queue1.NumberInQueue                2.1117     .10649     .00000     10.000     5.0000    
+Match 1.Queue2.NumberInQueue                .00387      9.1329E-4 .00000     5.0000     .00000    
+Denture installation.Queue.NumberInQueue    .42920     .01261     .00000     10.000     .00000    
+crowns polishing.Queue.NumberInQueue        .22942     .00275     .00000     16.000     .00000    
+Restoration Examination.Queue.NumberInQueu  .01044      5.6190E-4 .00000     1.0000     .00000    
+norma implant post cure.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+3DP dentures teeth.Queue.NumberInQueue      .05308     .00170     .00000     2.0000     .00000    
+sonication and acid etched.Queue.NumberInQ  .00390      3.3221E-4 .00000     1.0000     .00000    
+normal fixtures 3DP.Queue.NumberInQueue     .02114     (Corr)     .00000     2.0000     .00000    
+Batch 4.Queue.NumberInQueue                 2.0026     .02474     .00000     5.0000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+immediate_implant_count                        3050  Infinite
+denture_count                                 16548  Infinite
+restoration_count                             32815  Infinite
+two_stage_count                               11868  Infinite
+ortho_count                                   13951  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+normalized implant doctor                   1.0135    
+normalized Laboratory makespan              .61364    
+normalized orthodentics doctor              1.0450    
+normalized denture doctor                   2.0850    
+normalized restoration doctor 1             1.5356    
+normalized restoration doctor 2             .00000    
+doctors utilization                         .80000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+immediate implant 1.NumberIn                .00000    
+immediate implant 1.NumberOut               .00000    
+Implant type 2.NumberIn                     64324.    
+Implant type 2.NumberOut                    64098.    
+Implant type 1.NumberIn                     16147.    
+Implant type 1.NumberOut                    16163.    
+patient.NumberIn                            82130.    
+patient.NumberOut                           82130.    
+dentures_patient.NumberIn                   90990.    
+dentures_patient.NumberOut                  91012.    
+Implant_patient.NumberIn                    16352.    
+Implant_patient.NumberOut                   14968.    
+two stage implant 2.NumberIn                .00000    
+two stage implant 2.NumberOut               .00000    
+orthodontics_patient.NumberIn               44283.    
+orthodontics_patient.NumberOut              41853.    
+restorative_patient.NumberIn                 1.0049E+5
+restorative_patient.NumberOut                1.0050E+5
+post curing machine.NumberSeized            32825.    
+post curing machine.ScheduledUtilization    .23140    
+Restoration doctor 2.NumberSeized           18926.    
+Restoration doctor 2.ScheduledUtilization   .17308    
+Restoration doctor 1.NumberSeized           46703.    
+Restoration doctor 1.ScheduledUtilization   .62617    
+3DP.NumberSeized                            29920.    
+3DP.ScheduledUtilization                    .34592    
+Scanner.NumberSeized                        90184.    
+Scanner.ScheduledUtilization                .32054    
+Denture doctor.NumberSeized                 33083.    
+Denture doctor.ScheduledUtilization         .47807    
+orthodontist doctor.NumberSeized            77093.    
+orthodontist doctor.ScheduledUtilization    .92717    
+polisher.NumberSeized                       79235.    
+polisher.ScheduledUtilization               .07236    
+ultra sonic cleaner.NumberSeized            24660.    
+ultra sonic cleaner.ScheduledUtilization    .17310    
+photographer.NumberSeized                   13928.    
+photographer.ScheduledUtilization           .06368    
+Implant doctor.NumberSeized                 69320.    
+Implant doctor.ScheduledUtilization         .92925    
+UV machine.NumberSeized                     16544.    
+UV machine.ScheduledUtilization             .03780    
+Addmission Worker.NumberSeized              82130.    
+Addmission Worker.ScheduledUtilization      .31260    
+brush.NumberSeized                          16281.    
+brush.ScheduledUtilization                  .07344    
+Thermoforming machine.NumberSeized          13925.    
+Thermoforming machine.ScheduledUtilization  .19075    
+System.NumberOut                            78232.    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2022
+Analyst: None                                                        Model revision date: 2/ 3/2022
+
+Replication ended at time      : 4745.0 Days 
+Statistics were cleared at time: 1095.0 Days (Sunday, February 02, 2025, 00:00:00)
+Statistics accumulated for time: 3650.0 Days
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+tis_twostage_implant                        415.44     (Corr)     183.03     762.03      11884    
+tis_immediate_implant                       282.75     (Corr)     96.454     587.14       3070    
+tis_ortho_patients                          626.39     (Corr)     261.67     1030.7      13967    
+Laboratory makespan                         1.0401     .00829     .24444     23.711      90254    
+tis_restoration                             2.0752     .01227     .49617     4.4196      32934    
+tis_denture                                 71.349     .13076     56.711     86.565      16567    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+immediate implant 1.VATime                      --         --         --         --          0
+immediate implant 1.NVATime                     --         --         --         --          0
+immediate implant 1.WaitTime                    --         --         --         --          0
+immediate implant 1.TranTime                    --         --         --         --          0
+immediate implant 1.OtherTime                   --         --         --         --          0
+immediate implant 1.TotalTime                   --         --         --         --          0
+Implant type 2.VATime                       166.68     1.2527     100.82     362.72      11884    
+Implant type 2.NVATime                      .00000     .00000     .00000     .00000      11884    
+Implant type 2.WaitTime                     385.43     (Corr)     169.58     599.38      11884    
+Implant type 2.TranTime                     .08889     (Corr)     .08889     .08889      11884    
+Implant type 2.OtherTime                    .00000     .00000     .00000     .00000      11884    
+Implant type 2.TotalTime                    415.44     (Corr)     183.03     762.03      11884    
+Implant type 1.VATime                       19.947     1.7171     .42518     176.85       3070    
+Implant type 1.NVATime                      .00000     .00000     .00000     .00000       3070    
+Implant type 1.WaitTime                     273.37     (Corr)     93.217     476.25       3070    
+Implant type 1.TranTime                     .12222     (Corr)     .12222     .12222       3070    
+Implant type 1.OtherTime                    .00000     .00000     .00000     .00000       3070    
+Implant type 1.TotalTime                    282.75     (Corr)     96.454     587.14       3070    
+patient.VATime                                  --         --         --         --          0
+patient.NVATime                                 --         --         --         --          0
+patient.WaitTime                                --         --         --         --          0
+patient.TranTime                                --         --         --         --          0
+patient.OtherTime                               --         --         --         --          0
+patient.TotalTime                               --         --         --         --          0
+dentures_patient.VATime                     70.480     .13030     56.438     84.465      16567    
+dentures_patient.NVATime                    .00000     .00000     .00000     .00000      16567    
+dentures_patient.WaitTime                   2.3530     .02016     .46019     9.4154      16567    
+dentures_patient.TranTime                   .05556     (Corr)     .05556     .05556      16567    
+dentures_patient.OtherTime                  .00000     .00000     .00000     .00000      16567    
+dentures_patient.TotalTime                  71.349     .13076     56.711     86.565      16567    
+Implant_patient.VATime                          --         --         --         --          0
+Implant_patient.NVATime                         --         --         --         --          0
+Implant_patient.WaitTime                        --         --         --         --          0
+Implant_patient.TranTime                        --         --         --         --          0
+Implant_patient.OtherTime                       --         --         --         --          0
+Implant_patient.TotalTime                       --         --         --         --          0
+two stage implant 2.VATime                      --         --         --         --          0
+two stage implant 2.NVATime                     --         --         --         --          0
+two stage implant 2.WaitTime                    --         --         --         --          0
+two stage implant 2.TranTime                    --         --         --         --          0
+two stage implant 2.OtherTime                   --         --         --         --          0
+two stage implant 2.TotalTime                   --         --         --         --          0
+orthodontics_patient.VATime                 272.26     .89249     140.83     487.47      13967    
+orthodontics_patient.NVATime                .00000     .00000     .00000     .00000      13967    
+orthodontics_patient.WaitTime               354.82     (Corr)     68.916     623.17      13967    
+orthodontics_patient.TranTime               .05556     (Corr)     .05556     .05556      13967    
+orthodontics_patient.OtherTime              .00000     .00000     .00000     .00000      13967    
+orthodontics_patient.TotalTime              626.39     (Corr)     261.67     1030.7      13967    
+restorative_patient.VATime                  .30555      1.6138E-4 .26914     .34367      32934    
+restorative_patient.NVATime                 .00000     .00000     .00000     .00000      32934    
+restorative_patient.WaitTime                3.2304     .02435     .50052     7.5876      32934    
+restorative_patient.TranTime                .05556     (Corr)     .05556     .05556      32934    
+restorative_patient.OtherTime               .00000     .00000     .00000     .00000      32934    
+restorative_patient.TotalTime               2.0752     .01227     .49617     4.4196      32934    
+Admission.Queue.WaitingTime                 .00000     .00000     .00000     .00000      82128    
+Batch 2.Queue.WaitingTime                   2.1595     .11234     .00000     15.466       3070    
+normal implant brush.Queue.WaitingTime          --         --         --         --          0
+Batch 7.Queue.WaitingTime                   .33351     .00606     .00000     2.6666      16564    
+sature.Queue.WaitingTime                    .54440     .02553      1.2441E-6 3.3287      11892    
+implant fixture polishing.Queue.WaitingTim  .01067      6.9998E-4 .00000     .06582       3070    
+normal crown polish.Queue.WaitingTime           --         --         --         --          0
+sonication and immersion.Queue.WaitingTime  .00639     .00106     .00000     .07783        614    
+Dentures polishing.Queue.WaitingTime         3.1933E-4  4.2514E-5 .00000     .03797      16560    
+Dentures Examination.Queue.WaitingTime      .05134     .00148     .00000     .75203      16575    
+join patient crown and fixture.Queue.Waiti  1.0612     (Corr)      1.6567E-4 3.3229       3070    
+Hold for call.Queue.WaitingTime             18.983     (Corr)     .30004     181.88      90254    
+normal sonication and immersion.Queue.Wait  .00183      2.3110E-4 .00000     .10976       4755    
+Match 6.Queue1.WaitingTime                  .05921      3.5761E-5 .04449     .07765      90288    
+Match 6.Queue2.WaitingTime                  .00000     .00000     .00000     .00000      90288    
+dentures UV curing.Queue.WaitingTime        .01251      5.6638E-5 .00000     .03233      16560    
+crowns post cure.Queue.WaitingTime          .00412      4.0972E-4 .00000     .08052       2058    
+aligners brush.Queue.WaitingTime            .00110      4.5654E-5 .00000     .02641      13927    
+Implanr examination 1.Queue.WaitingTime     129.39     (Corr)     46.143     215.14      15632    
+normal crowns 3DP.Queue.WaitingTime             --         --         --         --          0
+Batch 1.Queue.WaitingTime                   4.6047     .21314     .00000     23.466       3070    
+Batch 3.Queue.WaitingTime                       --         --         --         --          0
+Photographing.Queue.WaitingTime             .00000     .00000     .00000     .00000      13929    
+immediate fixtures 3DP.Queue.WaitingTime    .03559     .00474     .00000     .23281        614    
+Match 3.Queue1.WaitingTime                  .01542      8.7225E-4 .00000     .10892      16560    
+Match 3.Queue2.WaitingTime                  .01810      6.0053E-4 .00000     .05493      16560    
+immediate implant brush.Queue.WaitingTime    6.6292E-4 (Insuf)    .00000     .01945        307    
+aligners ultra sonic.Queue.WaitingTime      .00374      2.4958E-4 .00000     .14302      13927    
+join patient and crown.Queue.WaitingTime    .53270     .02279      1.2317E-5 3.0999      11884    
+Hold 6.Queue.WaitingTime                    .13350     .00133      6.8975E-6 .26664      11880    
+Hold 2.Queue.WaitingTime                    .24325     .00314      1.2097E-5 .53333      90254    
+Hold 1.Queue.WaitingTime                    .13622      5.4783E-4  1.0830E-5 .26666      78381    
+aligners thermoforming.Queue.WaitingTime    .00435      1.0202E-4 .00000     .05262      13926    
+3DP dentures base.Queue.WaitingTime         .01527     .00105     .00000     .23231       4141    
+3DP aligners.Queue.WaitingTime              .03069      9.6549E-4 .00000     .35991      13928    
+Batch 8.Queue.WaitingTime                   .82981     .00943     .00000     2.6666      32928    
+3DP crown.Queue.WaitingTime                 .02833     .00242     .00000     .25662       2058    
+dentures post cure.Queue.WaitingTime        .01287      9.1008E-5 .00000     .07641      16560    
+normal implant fixture polishing.Queue.Wai  .00741      1.2838E-4 .00000     .06666      23775    
+examination by orthodentics.Queue.WaitingT  .10455     .00189      6.3299E-6 .76217      63146    
+immediate crown polish.Queue.WaitingTime    .01754      9.2352E-4 .00000     .05556       3070    
+join patient and fixture.Queue.WaitingTime  .64645     .02983      4.7394E-5 3.1947      11891    
+aligners post cure.Queue.WaitingTime        .00382      1.2722E-4 .00000     .06667      13927    
+immediate crowns 3DP.Queue.WaitingTime      .03986     (Insuf)    .00000     .24450        307    
+restoration.Queue.WaitingTime               .43962     .00195     .00000     1.3569      32935    
+normal sonication and acid etched.Queue.Wa  .00602      4.2462E-4 .00000     .10000       4755    
+Batch 6.Queue.WaitingTime                   .33351     .00606     .00000     2.6666      16564    
+scanning process.Queue.WaitingTime          .00231      5.7211E-5 .00000     .07063      78384    
+crowns brush.Queue.WaitingTime               3.9590E-4  1.0732E-4 .00000     .02362       2058    
+implant post cure.Queue.WaitingTime         .00428     (Insuf)    .00000     .05433        307    
+Orthodentics Examination.Queue.WaitingTime  391.32     (Corr)     134.52     647.19      13930    
+Implant examinatio 3.Queue.WaitingTime      129.24     (Corr)     46.149     214.96      11892    
+Implant examinatio 2.Queue.WaitingTime      128.77     (Corr)     46.244     214.95       3068    
+scanning2.Queue.WaitingTime                 .00221      9.7482E-5 .00000     .01604      11892    
+Match 1.Queue1.WaitingTime                  2.4625     .13006     .00000     15.149       3070    
+Match 1.Queue2.WaitingTime                  .00434      8.1757E-4 .00000     .08783       3070    
+Denture installation.Queue.WaitingTime      .09354     .00152     .00000     .63106      16567    
+crowns polishing.Queue.WaitingTime          .02558      1.2646E-4 .00000     .06663      32928    
+Restoration Examination.Queue.WaitingTime   .00118      5.7133E-5 .00000     .03522      32933    
+norma implant post cure.Queue.WaitingTime       --         --         --         --          0
+3DP dentures teeth.Queue.WaitingTime        .04614     .00164     .00000     .30467       4141    
+sonication and acid etched.Queue.WaitingTi  .02270     .00196     .00000     .11111        614    
+normal fixtures 3DP.Queue.WaitingTime       .01446      9.8524E-4 .00000     .26591       4755    
+Batch 4.Queue.WaitingTime                   .30643     .00488     .00000     2.9555      23775    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+total titanium Value                        41671.     (Corr)     14860.     68544.     68544.    
+Dentures revenue Value                       2.8444E+6 (Corr)      1.0259E+6  4.6718E+6  4.6718E+6
+Restoration revenue Value                    1.0538E+6 (Corr)      3.9168E+5  1.7098E+6  1.7098E+6
+Dentures base LP resin usage Value           2.5740E+6 (Corr)      9.2220E+5  4.2344E+6  4.2344E+6
+Implant revenue Value                        2.1346E+6 (Corr)      7.5337E+5  3.5140E+6  3.5140E+6
+TotalProfit Value                            1.9992E+6 (Corr)      3.9218E+5  3.6255E+6  3.6247E+6
+total transportation cost Value              1.4262E+5 (Corr)     52290.      2.3280E+5  2.3280E+5
+total resin Value                            8.2757E+5 (Corr)      3.0819E+5  1.3421E+6  1.3421E+6
+Orthodontics revenue Value                   7.3694E+6 (Corr)      2.4417E+6  1.2304E+7  1.2304E+7
+total grey resin Value                       7.8902E+5 (Corr)      3.0163E+5  1.2766E+6  1.2766E+6
+fixed transportation cost Value             2.0000     (Insuf)    2.0000     2.0000     2.0000    
+total cost Value                             1.1260E+7 (Corr)      4.1682E+6  1.8342E+7  1.8342E+7
+Dentures teeth A2 resin usage Value          1.8018E+6 (Corr)      6.4554E+5  2.9641E+6  2.9641E+6
+Entity 1.WIP                                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+immediate implant 1.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+Implant type 2.WIP                          1922.1     16.101     1749.0     2097.0     1922.0    
+Implant type 1.WIP                          18.476     .39235     .00000     71.000     21.000    
+patient.WIP                                 .31250      2.8838E-4 .00000     1.0000     1.0000    
+dentures_patient.WIP                        337.40     3.6192     287.00     413.00     345.00    
+Implant_patient.WIP                         1247.4     (Corr)     549.00     1999.0     1984.0    
+two stage implant 2.WIP                     .00000     (Insuf)    .00000     .00000     .00000    
+orthodontics_patient.WIP                    4870.6     (Corr)     3773.0     6086.0     5995.0    
+restorative_patient.WIP                     41.300     .31687     5.0000     82.000     53.000    
+post curing machine.NumberBusy              .23160     .00117     .00000     1.0000     1.0000    
+post curing machine.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+post curing machine.Utilization             .23160     .00117     .00000     1.0000     1.0000    
+Restoration doctor 2.NumberBusy             .17506     .00317     .00000     1.0000     1.0000    
+Restoration doctor 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 2.Utilization            .17506     .00317     .00000     1.0000     1.0000    
+Restoration doctor 1.NumberBusy             .62700     .00431     .00000     1.0000     1.0000    
+Restoration doctor 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Restoration doctor 1.Utilization            .62700     .00431     .00000     1.0000     1.0000    
+3DP.NumberBusy                              .69191     .00416     .00000     2.0000     2.0000    
+3DP.NumberScheduled                         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+3DP.Utilization                             .34595     .00208     .00000     1.0000     1.0000    
+Scanner.NumberBusy                          .32088     .00136     .00000     1.0000     .00000    
+Scanner.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Scanner.Utilization                         .32088     .00136     .00000     1.0000     .00000    
+Denture doctor.NumberBusy                   .47948     .00570     .00000     1.0000     .00000    
+Denture doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Denture doctor.Utilization                  .47948     .00570     .00000     1.0000     .00000    
+orthodontist doctor.NumberBusy              .92721      7.5186E-5 .00000     1.0000     1.0000    
+orthodontist doctor.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+orthodontist doctor.Utilization             .92721      7.5186E-5 .00000     1.0000     1.0000    
+polisher.NumberBusy                         .07251      3.3619E-4 .00000     1.0000     .00000    
+polisher.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+polisher.Utilization                        .07251      3.3619E-4 .00000     1.0000     .00000    
+ultra sonic cleaner.NumberBusy              .17315     (Corr)     .00000     1.0000     .00000    
+ultra sonic cleaner.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ultra sonic cleaner.Utilization             .17315     (Corr)     .00000     1.0000     .00000    
+photographer.NumberBusy                     .06352      3.4332E-4 .00000     1.0000     .00000    
+photographer.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+photographer.Utilization                    .06352      3.4332E-4 .00000     1.0000     .00000    
+Implant doctor.NumberBusy                   .92928      9.3014E-5 .00000     1.0000     1.0000    
+Implant doctor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Implant doctor.Utilization                  .92928      9.3014E-5 .00000     1.0000     1.0000    
+UV machine.NumberBusy                       .03788      5.4871E-4 .00000     1.0000     .00000    
+UV machine.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+UV machine.Utilization                      .03788      5.4871E-4 .00000     1.0000     .00000    
+Addmission Worker.NumberBusy                .31250      2.8838E-4 .00000     1.0000     1.0000    
+Addmission Worker.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Addmission Worker.Utilization               .31250      2.8838E-4 .00000     1.0000     1.0000    
+brush.NumberBusy                            .07342      4.0881E-4 .00000     1.0000     .00000    
+brush.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+brush.Utilization                           .07342      4.0881E-4 .00000     1.0000     .00000    
+Thermoforming machine.NumberBusy            .19077      8.4892E-4 .00000     1.0000     .00000    
+Thermoforming machine.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Thermoforming machine.Utilization           .19077      8.4892E-4 .00000     1.0000     .00000    
+Admission.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Batch 2.Queue.NumberInQueue                 1.8136     .07825     .00000     5.0000     2.0000    
+normal implant brush.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Batch 7.Queue.NumberInQueue                 1.5133     .01784     .00000     4.0000     .00000    
+sature.Queue.NumberInQueue                  1.7737     .07004     .00000     16.000     .00000    
+implant fixture polishing.Queue.NumberInQu  .00897      6.7676E-4 .00000     5.0000     .00000    
+normal crown polish.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+sonication and immersion.Queue.NumberInQue  .00108     (Insuf)    .00000     1.0000     .00000    
+Dentures polishing.Queue.NumberInQueue      .00145      2.4129E-4 .00000     3.0000     .00000    
+Dentures Examination.Queue.NumberInQueue    .23314     .00852     .00000     6.0000     .00000    
+join patient crown and fixture.Queue.Numbe  .89260     (Corr)     .00000     10.000     .00000    
+Hold for call.Queue.NumberInQueue           469.98     3.9679     410.00     533.00     474.00    
+normal sonication and immersion.Queue.Numb  .00239      2.7044E-4 .00000     2.0000     .00000    
+Match 6.Queue1.NumberInQueue                1.4644     .00559     .00000     48.000     .00000    
+Match 6.Queue2.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+dentures UV curing.Queue.NumberInQueue      .05676      8.5692E-4 .00000     3.0000     .00000    
+crowns post cure.Queue.NumberInQueue        .00232      2.4986E-4 .00000     1.0000     .00000    
+aligners brush.Queue.NumberInQueue          .00419      1.7806E-4 .00000     1.0000     .00000    
+Implanr examination 1.Queue.NumberInQueue   581.46     (Corr)     209.00     981.00     969.00    
+normal crowns 3DP.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Batch 1.Queue.NumberInQueue                 3.8639     .10377     .00000     10.000     7.0000    
+Batch 3.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Photographing.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+immediate fixtures 3DP.Queue.NumberInQueue  .00599      9.8882E-4 .00000     1.0000     .00000    
+Match 3.Queue1.NumberInQueue                .06999     .00417     .00000     4.0000     4.0000    
+Match 3.Queue2.NumberInQueue                .08212     .00321     .00000     4.0000     .00000    
+immediate implant brush.Queue.NumberInQueu   5.5758E-5 (Insuf)    .00000     1.0000     .00000    
+aligners ultra sonic.Queue.NumberInQueue    .01425      9.1444E-4 .00000     3.0000     .00000    
+join patient and crown.Queue.NumberInQueue  1.7344     .07621     .00000     18.000     .00000    
+Hold 6.Queue.NumberInQueue                  .43451     .00700     .00000     7.0000     .00000    
+Hold 2.Queue.NumberInQueue                  6.0150     .07442     .00000     48.000     5.0000    
+Hold 1.Queue.NumberInQueue                  2.9254     .01699     .00000     17.000     5.0000    
+aligners thermoforming.Queue.NumberInQueue  .01658      3.3884E-4 .00000     2.0000     .00000    
+3DP dentures base.Queue.NumberInQueue       .01732     .00128     .00000     2.0000     .00000    
+3DP aligners.Queue.NumberInQueue            .11710     .00479     .00000     4.0000     .00000    
+Batch 8.Queue.NumberInQueue                 7.4864     .05786     .00000     16.000     8.0000    
+3DP crown.Queue.NumberInQueue               .01598     .00152     .00000     1.0000     .00000    
+dentures post cure.Queue.NumberInQueue      .05839      8.0001E-4 .00000     4.0000     .00000    
+normal implant fixture polishing.Queue.Num  .04827     .00103     .00000     9.0000     .00000    
+examination by orthodentics.Queue.NumberIn  1.8088     .02549     .00000     19.000     .00000    
+immediate crown polish.Queue.NumberInQueue  .01475     .00103     .00000     10.000     .00000    
+join patient and fixture.Queue.NumberInQue  2.1060     .08067     .00000     19.000     .00000    
+aligners post cure.Queue.NumberInQueue      .01456      4.6931E-4 .00000     2.0000     .00000    
+immediate crowns 3DP.Queue.NumberInQueue    .00335      6.3826E-4 .00000     1.0000     .00000    
+restoration.Queue.NumberInQueue             3.9677     .03904     .00000     23.000     9.0000    
+normal sonication and acid etched.Queue.Nu  .00784      4.4978E-4 .00000     2.0000     .00000    
+Batch 6.Queue.NumberInQueue                 1.5133     .01784     .00000     4.0000     .00000    
+scanning process.Queue.NumberInQueue        .04957     .00127     .00000     6.0000     .00000    
+crowns brush.Queue.NumberInQueue             2.2322E-4 (Insuf)    .00000     1.0000     .00000    
+implant post cure.Queue.NumberInQueue        3.6040E-4 (Insuf)    .00000     1.0000     .00000    
+Orthodentics Examination.Queue.NumberInQue  1743.1     (Corr)     608.00     2918.0     2916.0    
+Implant examinatio 3.Queue.NumberInQueue    442.03     (Corr)     158.00     747.00     739.00    
+Implant examinatio 2.Queue.NumberInQueue    113.08     (Corr)     38.000     190.00     173.00    
+scanning2.Queue.NumberInQueue               .00721      3.6892E-4 .00000     2.0000     .00000    
+Match 1.Queue1.NumberInQueue                2.0628     .07922     .00000     10.000     5.0000    
+Match 1.Queue2.NumberInQueue                .00365      7.0940E-4 .00000     5.0000     .00000    
+Denture installation.Queue.NumberInQueue    .42455     .01192     .00000     12.000     .00000    
+crowns polishing.Queue.NumberInQueue        .23079     .00216     .00000     16.000     .00000    
+Restoration Examination.Queue.NumberInQueu  .01061      4.7951E-4 .00000     1.0000     .00000    
+norma implant post cure.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+3DP dentures teeth.Queue.NumberInQueue      .05235     .00208     .00000     2.0000     .00000    
+sonication and acid etched.Queue.NumberInQ  .00382      4.3740E-4 .00000     1.0000     .00000    
+normal fixtures 3DP.Queue.NumberInQueue     .01884     .00130     .00000     2.0000     .00000    
+Batch 4.Queue.NumberInQueue                 1.9959     .02156     .00000     5.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+immediate_implant_count                        3070  Infinite
+denture_count                                 16567  Infinite
+restoration_count                             32934  Infinite
+two_stage_count                               11884  Infinite
+ortho_count                                   13967  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+normalized implant doctor                   1.0135    
+normalized Laboratory makespan              .29348    
+normalized orthodentics doctor              1.0450    
+normalized denture doctor                   .00000    
+normalized restoration doctor 1             1.5356    
+normalized restoration doctor 2             6.4641    
+doctors utilization                         .80000    
+Entity 1.NumberIn                           .00000    
+Entity 1.NumberOut                          .00000    
+immediate implant 1.NumberIn                .00000    
+immediate implant 1.NumberOut               .00000    
+Implant type 2.NumberIn                     64207.    
+Implant type 2.NumberOut                    64175.    
+Implant type 1.NumberIn                     16266.    
+Implant type 1.NumberOut                    16271.    
+patient.NumberIn                            82128.    
+patient.NumberOut                           82128.    
+dentures_patient.NumberIn                   91107.    
+dentures_patient.NumberOut                  91116.    
+Implant_patient.NumberIn                    16383.    
+Implant_patient.NumberOut                   14960.    
+two stage implant 2.NumberIn                .00000    
+two stage implant 2.NumberOut               .00000    
+orthodontics_patient.NumberIn               44098.    
+orthodontics_patient.NumberOut              41901.    
+restorative_patient.NumberIn                 1.0087E+5
+restorative_patient.NumberOut                1.0086E+5
+post curing machine.NumberSeized            32852.    
+post curing machine.ScheduledUtilization    .23160    
+Restoration doctor 2.NumberSeized           19159.    
+Restoration doctor 2.ScheduledUtilization   .17506    
+Restoration doctor 1.NumberSeized           46709.    
+Restoration doctor 1.ScheduledUtilization   .62700    
+3DP.NumberSeized                            29944.    
+3DP.ScheduledUtilization                    .34595    
+Scanner.NumberSeized                        90276.    
+Scanner.ScheduledUtilization                .32088    
+Denture doctor.NumberSeized                 33142.    
+Denture doctor.ScheduledUtilization         .47948    
+orthodontist doctor.NumberSeized            77076.    
+orthodontist doctor.ScheduledUtilization    .92721    
+polisher.NumberSeized                       79403.    
+polisher.ScheduledUtilization               .07251    
+ultra sonic cleaner.NumberSeized            24665.    
+ultra sonic cleaner.ScheduledUtilization    .17315    
+photographer.NumberSeized                   13929.    
+photographer.ScheduledUtilization           .06352    
+Implant doctor.NumberSeized                 69329.    
+Implant doctor.ScheduledUtilization         .92928    
+UV machine.NumberSeized                     16560.    
+UV machine.ScheduledUtilization             .03788    
+Addmission Worker.NumberSeized              82128.    
+Addmission Worker.ScheduledUtilization      .31250    
+brush.NumberSeized                          16292.    
+brush.ScheduledUtilization                  .07342    
+Thermoforming machine.NumberSeized          13926.    
+Thermoforming machine.ScheduledUtilization  .19077    
+System.NumberOut                            78422.    
+
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date : 2/ 3/2022
+Analyst: None                                                        Model revision date: 2/ 3/2022
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+normalized implant doctor                   1.0135     .00000     1.0135     1.0135     5
+normalized Laboratory makespan              .45560     .27659     .14362     .61364     5
+normalized orthodentics doctor              1.0450     .00000     1.0450     1.0450     5
+normalized denture doctor                   .41701     1.1576     .00000     2.0850     5
+normalized restoration doctor 1             .92138     1.0441     .00000     1.5356     5
+normalized restoration doctor 2             2.5856     4.3954     .00000     6.4641     5
+doctors utilization                         .64000     .27199     .40000     .80000     5
+Entity 1.NumberIn                           .00000     .00000     .00000     .00000     5
+Entity 1.NumberOut                          .00000     .00000     .00000     .00000     5
+immediate implant 1.NumberIn                .00000     .00000     .00000     .00000     5
+immediate implant 1.NumberOut               .00000     .00000     .00000     .00000     5
+Implant type 2.NumberIn                     64255.     69.619     64207.     64324.     5
+Implant type 2.NumberOut                    64182.     72.042     64098.     64259.     5
+Implant type 1.NumberIn                     16120.     160.65     15910.     16266.     5
+Implant type 1.NumberOut                    16118.     153.06     15930.     16271.     5
+patient.NumberIn                            82128.     1.0386     82128.     82130.     5
+patient.NumberOut                           82129.     1.2414     82128.     82130.     5
+dentures_patient.NumberIn                   90663.     755.06     89971.     91214.     5
+dentures_patient.NumberOut                  90678.     766.97     89970.     91246.     5
+Implant_patient.NumberIn                    16483.     192.95     16352.     16722.     5
+Implant_patient.NumberOut                   14943.     26.877     14913.     14968.     5
+two stage implant 2.NumberIn                .00000     .00000     .00000     .00000     5
+two stage implant 2.NumberOut               .00000     .00000     .00000     .00000     5
+orthodontics_patient.NumberIn               44155.     116.40     44048.     44283.     5
+orthodontics_patient.NumberOut              41789.     112.67     41667.     41901.     5
+restorative_patient.NumberIn                 1.0062E+5 207.75      1.0045E+5  1.0087E+5 5
+restorative_patient.NumberOut                1.0062E+5 204.30      1.0045E+5  1.0086E+5 5
+post curing machine.NumberSeized            32762.     144.60     32631.     32864.     5
+post curing machine.ScheduledUtilization    .23110      7.0425E-4 .23041     .23160     5
+Restoration doctor 2.NumberSeized           19048.     131.48     18926.     19160.     5
+Restoration doctor 2.ScheduledUtilization   .17408     .00115     .17308     .17507     5
+Restoration doctor 1.NumberSeized           46661.     154.60     46440.     46743.     5
+Restoration doctor 1.ScheduledUtilization   .62609     .00158     .62392     .62701     5
+3DP.NumberSeized                            29885.     78.701     29810.     29944.     5
+3DP.ScheduledUtilization                    .34550      9.6412E-4 .34450     .34627     5
+Scanner.NumberSeized                        90101.     203.51     89903.     90276.     5
+Scanner.ScheduledUtilization                .32019      8.1263E-4 .31935     .32088     5
+Denture doctor.NumberSeized                 32963.     271.29     32716.     33142.     5
+Denture doctor.ScheduledUtilization         .47651     .00397     .47300     .47948     5
+orthodontist doctor.NumberSeized            77090.     12.871     77076.     77104.     5
+orthodontist doctor.ScheduledUtilization    .92720      2.3510E-5 .92717     .92721     5
+polisher.NumberSeized                       79215.     185.22     79050.     79403.     5
+polisher.ScheduledUtilization               .07234      1.6908E-4 .07219     .07251     5
+ultra sonic cleaner.NumberSeized            24651.     14.192     24637.     24665.     5
+ultra sonic cleaner.ScheduledUtilization    .17306      8.0213E-5 .17299     .17315     5
+photographer.NumberSeized                   13919.     13.266     13903.     13929.     5
+photographer.ScheduledUtilization           .06363      1.2531E-4 .06352     .06377     5
+Implant doctor.NumberSeized                 69343.     119.78     69220.     69488.     5
+Implant doctor.ScheduledUtilization         .92928      2.3004E-5 .92925     .92930     5
+UV machine.NumberSeized                     16485.     137.33     16360.     16592.     5
+UV machine.ScheduledUtilization             .03768      3.1426E-4 .03735     .03790     5
+Addmission Worker.NumberSeized              82128.     1.0386     82128.     82130.     5
+Addmission Worker.ScheduledUtilization      .31251      1.0942E-4 .31237     .31260     5
+brush.NumberSeized                          16277.     14.830     16260.     16292.     5
+brush.ScheduledUtilization                  .07347      6.2979E-5 .07342     .07355     5
+Thermoforming machine.NumberSeized          13918.     10.729     13905.     13926.     5
+Thermoforming machine.ScheduledUtilization  .19066      1.4548E-4 .19048     .19077     5
+System.NumberOut                            78198.     204.64     78020.     78422.     5
+
+Simulation run time: 0.88 minutes.
+Simulation run complete.

@@ -1,0 +1,76 @@
+
+	Distribution Summary
+
+Distribution:	Gamma        
+Expression:	-0.5 + GAMM(5.26, 1.31)
+Square Error:	0.000736
+
+Chi Square Test
+  Number of intervals	= 24
+  Degrees of freedom 	= 21
+  Test Statistic     	= 140
+  Corresponding p-value	< 0.005
+
+	Data Summary
+
+Number of Data Points	= 4769
+Min Data Value       	= 0
+Max Data Value       	= 23
+Sample Mean          	= 6.37
+Sample Std Dev       	= 5.62
+
+	Histogram Summary
+
+Histogram Range    	= -0.5 to 23.5
+Number of Intervals	= 24
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0   491       0.00      0.103     0.0869      0.103     0.0869
+   1   504       1.00      0.106      0.107      0.209      0.194
+   2   507       2.00      0.106      0.104      0.315      0.299
+   3   410       3.00     0.0860     0.0957      0.401      0.394
+   4   354       4.00     0.0742     0.0855      0.475      0.480
+   5   335       5.00     0.0702     0.0752      0.545      0.555
+   6   292       6.00     0.0612     0.0654      0.607      0.620
+   7   250       7.00     0.0524     0.0565      0.659      0.677
+   8   235       8.00     0.0493     0.0486      0.708      0.725
+   9   204       9.00     0.0428     0.0416      0.751      0.767
+  10   164       10.0     0.0344     0.0355      0.785      0.802
+  11   154       11.0     0.0323     0.0301      0.818      0.833
+  12   128       12.0     0.0268     0.0256      0.845      0.858
+  13   128       13.0     0.0268     0.0217      0.871      0.880
+  14   102       14.0     0.0214     0.0183      0.893      0.898
+  15    81       15.0     0.0170     0.0154      0.910      0.914
+  16    59       16.0     0.0124     0.0130      0.922      0.927
+  17    72       17.0     0.0151     0.0110      0.937      0.938
+  18    61       18.0     0.0128    0.00922      0.950      0.947
+  19    75       19.0     0.0157    0.00775      0.966      0.955
+  20    54       20.0     0.0113    0.00651      0.977      0.961
+  21    41       21.0    0.00860    0.00546      0.986      0.966
+  22    40       22.0    0.00839    0.00458      0.994      0.971
+  23    28       23.0    0.00587    0.00384       1.00      0.975
+
+
+=================================================================
+
+
+Data File: C:\Users\calvin\Desktop\my working directory\third-semester-1400\simulation language\hw3_99207521\arrival_Liner.txt
+
+
+Function       Sq Error
+-----------------------
+Gamma          0.000736
+Beta           0.00143
+Exponential    0.00156
+Erlang         0.00156
+Weibull        0.00347
+Lognormal      0.00431
+Triangular     0.0139
+Normal         0.0145
+Uniform        0.0255
+Poisson        0.059

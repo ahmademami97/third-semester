@@ -1,0 +1,76 @@
+
+	Distribution Summary
+
+Distribution:	Gamma        
+Expression:	-0.5 + GAMM(5.27, 1.27)
+Square Error:	0.000947
+
+Chi Square Test
+  Number of intervals	= 23
+  Degrees of freedom 	= 20
+  Test Statistic     	= 69.4
+  Corresponding p-value	< 0.005
+
+	Data Summary
+
+Number of Data Points	= 2485
+Min Data Value       	= 0
+Max Data Value       	= 23
+Sample Mean          	= 6.21
+Sample Std Dev       	= 5.56
+
+	Histogram Summary
+
+Histogram Range    	= -0.5 to 23.5
+Number of Intervals	= 24
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0   272       0.00      0.109     0.0934      0.109     0.0934
+   1   299       1.00      0.120      0.111      0.230      0.204
+   2   233       2.00     0.0938      0.106      0.324      0.310
+   3   224       3.00     0.0901     0.0962      0.414      0.406
+   4   193       4.00     0.0777     0.0852      0.491      0.492
+   5   154       5.00     0.0620     0.0745      0.553      0.566
+   6   153       6.00     0.0616     0.0645      0.615      0.631
+   7   128       7.00     0.0515     0.0555      0.666      0.686
+   8   118       8.00     0.0475     0.0475      0.714      0.734
+   9    98       9.00     0.0394     0.0405      0.753      0.774
+  10    92       10.0     0.0370     0.0345      0.790      0.809
+  11    81       11.0     0.0326     0.0292      0.823      0.838
+  12    71       12.0     0.0286     0.0247      0.852      0.863
+  13    62       13.0     0.0249     0.0209      0.876      0.884
+  14    49       14.0     0.0197     0.0176      0.896      0.901
+  15    49       15.0     0.0197     0.0149      0.916      0.916
+  16    38       16.0     0.0153     0.0125      0.931      0.929
+  17    31       17.0     0.0125     0.0105      0.944      0.939
+  18    38       18.0     0.0153    0.00883      0.959      0.948
+  19    23       19.0    0.00926    0.00741      0.968      0.955
+  20    27       20.0     0.0109    0.00621      0.979      0.962
+  21    21       21.0    0.00845    0.00521      0.988      0.967
+  22    17       22.0    0.00684    0.00436      0.994      0.971
+  23    14       23.0    0.00563    0.00365       1.00      0.975
+
+
+=================================================================
+
+
+Data File: C:\Users\calvin\Desktop\my working directory\third-semester-1400\simulation language\hw3_99207521\arrival_Feeder.txt
+
+
+Function       Sq Error
+-----------------------
+Gamma          0.000947
+Exponential    0.00123
+Erlang         0.00123
+Beta           0.00134
+Weibull        0.00315
+Lognormal      0.00429
+Triangular     0.011
+Normal         0.0159
+Uniform        0.0275
+Poisson        0.0625
